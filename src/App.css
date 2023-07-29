@@ -1,0 +1,14 @@
+.App{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+footer{
+    margin-top: auto;
+}
+
+@media screen and (max-width:900px) {
+    .route{
+    margin:auto 0;
+}
+}
