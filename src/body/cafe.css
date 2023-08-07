@@ -1,0 +1,125 @@
+.cafe{
+    background-color: rgba(3,46,48,255);
+
+}
+.container{
+    background-color: rgba(3,46,48,255);
+padding-bottom: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 130px;
+    /* width: 50%; */
+}
+.h2{
+   font-family: 'Times New Roman',serif;
+   letter-spacing: 3px;
+   font-size: 40px;
+   font-weight: bold;
+   background-image: linear-gradient(
+	to right,
+	#a17e50 0,
+       	#cb9b51 22%, 
+	#f6e27a 45%,
+	#aca871 50%,
+	#f6e27a 55%,
+	#cb9b51 78%,
+	#a17e50 100%
+
+    );
+   color:transparent;
+   -webkit-background-clip:text;
+}
+h3{
+    
+    font-family: 'Times New Roman',serif;
+    letter-spacing: 3px;
+    font-size: 40px;
+    font-weight: bold;
+    background-image: linear-gradient(
+     to right,
+     #a17e50 0,
+     #cb9b51 22%, 
+#f6e27a 45%,
+#b8b57f 50%,
+#f6e27a 55%,
+#cb9b51 78%,
+#a17e50 100%
+     );
+    color:transparent;
+    -webkit-background-clip:text;
+}
+.cafeimg{    
+    border-radius: 10px;
+    width: 350px;
+    height: 300px;
+    margin: 6px;
+    transition: all 1s;
+    
+}
+.cafeimgs:hover{
+    transform: scale(1.1);
+}
+
+.golden-btn {
+    margin-top: 20px;
+    display: inline-block;
+    outline: none;
+    font-family: inherit;
+    font-size: 1em;
+    box-sizing: border-box;
+    border: none;
+    width: 150px;
+    border-radius: .9em;
+    height: 2.75em;
+    line-height: 2.5em;
+    text-transform: uppercase;
+    padding: 0 1em;
+    box-shadow: 0 3px 6px rgba(0,0,0,.16), 0 3px 6px rgba(110,80,20,.4),
+                inset 0 -2px 5px 1px rgba(139,66,8,1),
+                inset 0 -1px 1px 3px rgba(250,227,133,1);
+    background-image: linear-gradient(160deg, #a54e07, #b47e11, #eadc82, #bc881b, #a54e07);
+    border: 1px solid #a55d07;
+    color: rgb(120,50,5);
+    text-shadow: 0 2px 2px rgb(0, 0, 0);
+    
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+    background-size: 100% 100%;
+    background-position:center;
+  }
+  .golden-btn:focus,
+  .golden-btn:hover {
+    
+    background-size: 150% 150%;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23),
+                  inset 0 -2px 5px 1px #b17d10,
+                  inset 0 -1px 1px 3px rgba(250,227,133,1);
+    border: 1px solid rgba(165,93,7,.6);
+    color: rgba(120,50,5,.8);
+  }
+  .golden-btn:active {
+    box-shadow: 0 3px 6px rgba(196, 154, 38, 0.16), 0 3px 6px rgba(110,80,20,.4),
+                inset 0 -2px 5px 1px #b17d10,
+                  inset 0 -1px 1px 3px rgba(250,227,133,1);
+  }
+  .aa, .aa:hover, .aa:focus, .aa:active {
+    text-decoration: none;
+    color: inherit;
+}
+.cafeimgi{
+    border-radius: 10px;
+    width: 250px;
+    height: 350px;
+    margin: 6px;
+    transition: all 1s;
+}
+
+.first{
+    text-align: center;
+    margin-top:200px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

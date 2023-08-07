@@ -1,14 +1,10 @@
 .header {
     width: 100%;
 
-    top: 0;
-    left: 0;
     z-index: 1;
     transition: .3s ease-in;
     overflow: hidden;
     background-color: transparent;
-    content: '';
-    height: 110%;
     width: 100%;
     position: absolute;
 
@@ -96,7 +92,7 @@
     display: none;
     color: rgba(213,174,75,255);
 }
-a{
+.a{
     color: rgba(213,174,75,255);
 }
 
