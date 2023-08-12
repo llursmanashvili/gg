@@ -4,7 +4,8 @@ import Footer from "./footer/footer";
 import "./App.css";
 import { Routes, Route } from "react-router-dom";
 import Cafe from "./body/cafe";
-
+import Contact from "./body/contact";
+import About from "./body/about";
 function App() {
   return (
     <div className="App">
@@ -13,6 +14,8 @@ function App() {
       <Routes className="route">
         <Route path="/" element={[<Navbar1 />]} />
         <Route path="/cafe" element={[<Cafe />]} />
+        <Route path="/contact" element={[<Contact />]} />
+        <Route path="/about" element={[<About />]} />
       </Routes>
       <footer>
         <Footer />

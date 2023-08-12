@@ -1,0 +1,150 @@
+.email{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background-color: rgba(3,46,48,255);
+    text-align: center;
+}
+.emaili{
+    display: flex;
+    justify-content:center;
+    background-color: rgba(3,46,48,255);
+    text-align: center;
+    margin-left: 200px;
+
+}
+.contact1{
+    margin-top: 120px;
+    
+    display: flex;
+    flex-direction: column;
+}
+
+.call{
+    
+    margin-top: 20px;
+    display: grid;
+    align-items: center;
+    font-size:x-large;
+    
+}
+button{
+    margin: 10px;
+}
+.p{
+    font-family: 'Times New Roman',serif;
+    letter-spacing: 3px;
+    font-size: 30px;
+    font-weight: bold;
+    background-image: linear-gradient(
+     to right,
+     #a17e50 0,
+     #cb9b51 22%, 
+#f6e27a 45%,
+#d7d169 50%,
+#f6e27a 55%,
+#cb9b51 78%,
+#a17e50 100%
+     );
+    color:transparent;
+    -webkit-background-clip:text;
+}
+.direction{
+    
+    margin-top: 60px;
+    display: grid;
+    text-align: center;
+    align-items: center;
+    font-size:x-large;
+}
+
+.box{
+    border-radius: 20px;
+    border-style: none;
+    height: 50px;
+    margin-top: 10px;
+}
+.icon{
+    padding-right: 10px;
+}
+@media only screen and (max-width:1115px) {
+
+    .email{
+        display: grid;
+        padding-top: 20px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: rgba(3,46,48,255);
+
+    
+    }
+    .emaili{
+        display: flex;
+        justify-content:center;
+        background-color: rgba(3,46,48,255);
+        text-align: center;
+        margin: auto;
+        width: 300px;
+        
+        
+    
+    }
+    .call{
+        margin-top: 20px;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        font-size:x-large;
+        
+    }
+    .direction{
+        
+        margin-top: 80px;
+        display: grid;
+        text-align: center;
+        align-items: center;
+        font-size:x-large;
+    }
+    
+    .box{
+        display: flex;
+        width:300px;
+        justify-content: center;
+        align-items: center;
+        
+
+        border-radius: 20px;
+        border-style: none;
+        margin:auto;
+        height: 50px;
+        margin-top: 10px;
+    }
+
+    .p{
+        font-family: 'Times New Roman',serif;
+        letter-spacing: 2px;
+        font-weight: bold;
+        background-image: linear-gradient(
+         to right,
+         #a17e50 0,
+         #cb9b51 22%, 
+    #f6e27a 45%,
+    #b8b57f 50%,
+    #f6e27a 55%,
+    #cb9b51 78%,
+    #a17e50 100%
+         );
+        color:transparent;
+        -webkit-background-clip:text;
+    }
+    
+    .icon{
+        padding-right: 10px;
+    }
+    .contact1{
+        display: flex;
+        flex-direction: column;
+    }
+        
+    }

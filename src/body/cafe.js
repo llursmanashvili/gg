@@ -21,6 +21,7 @@ import cafe20 from "./photos/cafe/cafe20.JPG";
 import cafe21 from "./photos/cafe/cafe21.jpg";
 import cafe24 from "./photos/cafe/cafe24.jpg";
 import { QRCode, Space, theme } from "antd";
+import { MDBIcon } from "mdbreact";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import "./cafe.css";
@@ -57,6 +58,10 @@ export default function Cafe() {
             MENU
           </a>
         </button>
+        <h3>
+          ასევე იხილეთ ჩვენი გალერეა{" "}
+          <MDBIcon fas icon="arrow-alt-circle-down" />
+        </h3>
       </div>
       <div className="container">
         <img className="cafeimg" data-aos="zoom-in" src={cafe1}></img>

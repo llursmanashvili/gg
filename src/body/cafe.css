@@ -1,6 +1,6 @@
 .cafe{
     background-color: rgba(3,46,48,255);
-
+    margin-top: -58px;
 }
 .container{
     background-color: rgba(3,46,48,255);
@@ -8,10 +8,11 @@ padding-bottom: 0px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin-top: 130px;
+    margin-top: 60px;
     /* width: 50%; */
 }
 .h2{
+    margin-bottom: 20px;
    font-family: 'Times New Roman',serif;
    letter-spacing: 3px;
    font-size: 40px;
@@ -21,7 +22,7 @@ padding-bottom: 0px;
 	#a17e50 0,
        	#cb9b51 22%, 
 	#f6e27a 45%,
-	#aca871 50%,
+	#ded771 50%,
 	#f6e27a 55%,
 	#cb9b51 78%,
 	#a17e50 100%
@@ -31,7 +32,7 @@ padding-bottom: 0px;
    -webkit-background-clip:text;
 }
 h3{
-    
+    margin-top: 10px;
     font-family: 'Times New Roman',serif;
     letter-spacing: 3px;
     font-size: 40px;
