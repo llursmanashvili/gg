@@ -29,18 +29,23 @@ const Navbar = () => {
         <ul className={click ? "nav-menu active" : "nav-menu"}>
           <li className="nav-item">
             <Link to="/cafe" className="a" onClick={closeMenu}>
-              cafe
+              კაფე-ბარი
+            </Link>
+          </li>
+          <li className="nav-item">
+            <Link to="/suites" className="a" onClick={closeMenu}>
+              ნომრები
             </Link>
           </li>
 
           <li className="nav-item">
             <Link to="/about" className="a" onClick={closeMenu}>
-              about
+              ჩვენ შესახებ
             </Link>
           </li>
           <li className="nav-item">
             <Link to="/contact" className="a" onClick={closeMenu}>
-              contact
+              კონტაქტი
             </Link>
           </li>
         </ul>

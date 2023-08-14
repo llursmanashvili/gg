@@ -1,4 +1,5 @@
 .email{
+    margin-top: -150px;
     display: flex;
     justify-content:center;
     align-items: center;
@@ -11,6 +12,7 @@
     background-color: rgba(3,46,48,255);
     text-align: center;
     margin-left: 200px;
+
 
 }
 .contact1{

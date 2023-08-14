@@ -38,7 +38,7 @@ export default function Cafe() {
   return (
     <div className="cafe">
       <div className="first">
-        <h2 className="h2">მენიუს სანახად დაასკანერეთ კოდი </h2>
+        <h2 className="h2">მენიუს სანახავად დაასკანერეთ კოდი </h2>
 
         <Space>
           <QRCode
@@ -49,7 +49,7 @@ export default function Cafe() {
         </Space>
         <p></p>
         <p></p>
-        <h3>ან დააკლიკეთ ღილაკს</h3>
+        <h3 className="h3">ან დააკლიკეთ ღილაკს</h3>
         <button class="golden-btn" style={{ fontSize: "1.3em" }}>
           <a
             className="aa"
@@ -58,7 +58,7 @@ export default function Cafe() {
             MENU
           </a>
         </button>
-        <h3>
+        <h3 className="h3">
           ასევე იხილეთ ჩვენი გალერეა{" "}
           <MDBIcon fas icon="arrow-alt-circle-down" />
         </h3>

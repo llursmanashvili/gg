@@ -98,7 +98,7 @@ const Contact = () => {
                 type="submit"
                 value="Send"
                 onClick={() => {
-                  alert("email has sent");
+                  window.location.reload(false);
                 }}
               />
             </form>

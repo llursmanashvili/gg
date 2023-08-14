@@ -3,3 +3,8 @@
     color: rgba(213,174,75,255);
     
 }
+a, a:hover, a:focus, a:active {
+    
+    text-decoration: none;
+    color: inherit;
+}

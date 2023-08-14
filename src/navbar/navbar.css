@@ -5,20 +5,17 @@
     overflow: hidden;
     background-color: transparent;
     width: 100%;
-    position: absolute;
-
 }
 
 .header .navbar {
+margin-bottom: 20px;
     background-color: rgba(3,46,48,255);
-    position: fixed;
     width: 100%;
     height: 135px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     max-width: 2064px;
-    margin: auto;
     padding: 0 1rem;
 }
 
@@ -119,7 +116,7 @@
         left: -100%;
         top: 130px;
         flex-direction: column;
-        background-color:#ffffffd7;
+        background-color:#ffffffcc;
         width: 100%;
         height: 100%;
         z-index: 999;

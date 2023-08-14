@@ -62,53 +62,53 @@ export default function Footer() {
             </MDBCol>
 
             <MDBCol md="2" lg="2" xl="2" className="mx-auto mb-4">
-              <h6 className="text-uppercase fw-bold mb-4">Products</h6>
-              <Link to="">
+              <h6 className="text-uppercase fw-bold mb-4">გვერდები</h6>
+              <Link to="/cafe">
                 <p>
-                  <a className="text-reset">Angular</a>
+                  <a className="text-reset">კაფე-ბარი</a>
                 </p>
               </Link>
 
-              <Link to="">
+              <Link to="/suites">
                 <p>
-                  <a className="text-reset">React</a>
+                  <a className="text-reset">ნომრები</a>
                 </p>
               </Link>
 
-              <Link to="">
+              <Link to="/about">
                 <p>
-                  <a className="text-reset">Vue</a>
+                  <a className="text-reset">ჩვენ შესახებ</a>
                 </p>
               </Link>
 
-              <Link to="">
+              <Link to="/contact">
                 <p>
-                  <a className="text-reset">Laravel</a>
+                  <a className="text-reset">კონტაქტი</a>
                 </p>
               </Link>
             </MDBCol>
 
             <MDBCol md="3" lg="2" xl="2" className="mx-auto mb-4">
-              <h6 className="text-uppercase fw-bold mb-4">Useful links</h6>
-              <Link to="">
+              <h6 className="text-uppercase fw-bold mb-4">ლუქსები</h6>
+              <Link to="/presidentallux">
                 <p>
-                  <a className="text-reset">Pricing</a>
+                  <a className="text-reset">საპრეზიდენტო </a>
                 </p>
               </Link>
 
-              <Link to="">
+              <Link to="/familylux">
                 <p>
-                  <a className="text-reset">Settings</a>
+                  <a className="text-reset">საოჯახო </a>
                 </p>
               </Link>
-              <Link to="">
+              <Link to="/standarttwin">
                 <p>
-                  <a className="text-reset">Orders</a>
+                  <a className="text-reset">სტანდარტული </a>
                 </p>
               </Link>
-              <Link to="">
+              <Link to="/standartdouble">
                 <p>
-                  <a className="text-reset">Help</a>
+                  <a className="text-reset">სტანდარტული </a>
                 </p>
               </Link>
             </MDBCol>

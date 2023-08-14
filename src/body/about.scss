@@ -1,0 +1,20 @@
+@import "~react-image-gallery/styles/css/image-gallery.css";
+
+@import "~react-image-gallery/styles/scss/image-gallery.scss";
+.suite{
+    margin: 130px;
+    width: 600px;
+    
+    margin-left: 20px;
+}
+body{
+    background-color: rgba(3,46,48,255);
+
+}
+@media only screen and (max-width:1115px) {
+.suite{
+    margin: auto;
+    width: auto;  
+    margin-top: 150px;
+}
+}

@@ -1,6 +1,7 @@
 .cafe{
+    margin-top: -215px;
+
     background-color: rgba(3,46,48,255);
-    margin-top: -58px;
 }
 .container{
     background-color: rgba(3,46,48,255);
@@ -31,7 +32,7 @@ padding-bottom: 0px;
    color:transparent;
    -webkit-background-clip:text;
 }
-h3{
+.h3{
     margin-top: 10px;
     font-family: 'Times New Roman',serif;
     letter-spacing: 3px;
