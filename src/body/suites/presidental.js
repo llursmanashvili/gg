@@ -43,4 +43,26 @@ function Presidental() {
     </div>
   );
 }
-export default Presidental;
+function Presidental1() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
+  return (
+    <div className="suites">
+      <div className="suite">
+        <ImageGallery items={images} />
+      </div>
+      <div className="worth">
+        {" "}
+        <h1 className="h2">PRICE:</h1>
+        <div class="wrapper">
+          {" "}
+          <div class="bg"> 385 GEL </div>
+          <div class="fg"> 385 GEL</div>
+        </div>
+      </div>
+    </div>
+  );
+}
+export { Presidental, Presidental1 };

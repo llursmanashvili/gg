@@ -116,7 +116,6 @@
   width: -moz-fit-content; /* Prefijo necesario para Firefox  */
   font-family: 'Times New Roman',serif;
   font-weight: bold;
-  
   background-image: linear-gradient(
     to right,
     #a17e50 0,

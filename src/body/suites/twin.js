@@ -59,4 +59,26 @@ function Doubletwin() {
     </div>
   );
 }
-export default Doubletwin;
+function Doubletwin1() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
+  return (
+    <div className="suites">
+      <div className="suite">
+        <ImageGallery items={images} />
+      </div>
+      <div className="worth">
+        {" "}
+        <h1 className="h2">PRICE:</h1>
+        <div class="wrapper">
+          {" "}
+          <div class="bg"> 145 GEL </div>
+          <div class="fg"> 145 GEL</div>
+        </div>
+      </div>
+    </div>
+  );
+}
+export { Doubletwin, Doubletwin1 };

@@ -108,8 +108,108 @@ const Contact = () => {
     </>
   );
 };
+const Contact1 = () => {
+  const form = useRef();
 
-export default Contact;
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_n1w9ggl",
+        "template_mhos0b6",
+        form.current,
+        "orN1q6mtqVo2S8P6L"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+          console.log("message sent");
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+  };
+  const triggercall = () => {
+    const args = {
+      number: " +995 596 22 22 16 ", // String value with the number to call
+      prompt: false, // Optional boolean property. Determines if the user should be prompted prior to the call
+      skipCanOpen: true, // Skip the canOpenURL check
+    };
+
+    call(args).catch(console.error);
+  };
+  const triggercall1 = () => {
+    const args = {
+      number: " +995 511 22 22 16 ", // String value with the number to call
+      prompt: false, // Optional boolean property. Determines if the user should be prompted prior to the call
+      skipCanOpen: true, // Skip the canOpenURL check
+    };
+
+    call(args).catch(console.error);
+  };
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
+  return (
+    <>
+      <div className="email">
+        <div className="contact1">
+          <div className="call">
+            <p className="p">Contact us easily</p>
+            <button className="box text-warning mb-3" onClick={triggercall}>
+              <MDBIcon className="icon" fas icon="phone-alt" />
+              Hotel
+              <MDBIcon fas icon="hotel" className="me-1 ml-2" />
+            </button>
+            <button className="box text-warning mb-3" onClick={triggercall1}>
+              <MDBIcon className="icon" fas icon="phone-alt" />
+              Cafe-Bar
+              <MDBIcon fas icon="glass-martini" className="me-1 ml-2" />
+            </button>
+          </div>
+          <div className="direction">
+            <p className="p">Find us easily</p>
+            <button className="box">
+              <a
+                className="text-warning"
+                href="https://www.google.com/maps/dir//Hotel+Georgia+Gold,+26%E1%83%90+%E1%83%A1%E1%83%A2%E1%83%90%E1%83%9A%E1%83%98%E1%83%9C%E1%83%98%E1%83%A1+%E1%83%92%E1%83%90%E1%83%9B%E1%83%96%E1%83%98%E1%83%A0%E1%83%98,+%E1%83%92%E1%83%9D%E1%83%A0%E1%83%98/@41.9857997,44.1112172,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x40449ea6ff9e476b:0xf00d9b53f61f459f!2m2!1d44.1137635!2d41.9858078!3e0?entry=ttu"
+              >
+                <MDBIcon className="icon" fas icon="map-marked-alt" />
+                Visit us
+              </a>
+            </button>
+          </div>
+        </div>
+
+        <div className="emaili">
+          <StyledContactForm>
+            <form ref={form} onSubmit={sendEmail}>
+              <label>Name</label>
+              <input type="text" name="to_name" />
+              <label>Email</label>
+              <input type="email" name="from_name" />
+              <label>Message</label>
+              <textarea name="message" />
+              <input
+                type="submit"
+                value="Send"
+                onClick={() => {
+                  window.location.reload(false);
+                }}
+              />
+            </form>
+          </StyledContactForm>
+        </div>
+      </div>
+    </>
+  );
+};
+
+export { Contact, Contact1 };
 
 // Styles
 const StyledContactForm = styled.div`

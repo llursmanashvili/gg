@@ -59,4 +59,26 @@ function Family() {
     </div>
   );
 }
-export default Family;
+function Family1() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
+  return (
+    <div className="suites">
+      <div className="suite">
+        <ImageGallery items={images} />
+      </div>
+      <div className="worth">
+        {" "}
+        <h1 className="h2">PRICE:</h1>
+        <div class="wrapper">
+          {" "}
+          <div class="bg"> 285 GEL </div>
+          <div class="fg"> 285 GEL</div>
+        </div>
+      </div>
+    </div>
+  );
+}
+export { Family, Family1 };

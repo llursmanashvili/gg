@@ -74,4 +74,26 @@ function Double() {
     </div>
   );
 }
-export default Double;
+function Double1() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
+  return (
+    <div className="suites">
+      <div className="suite">
+        <ImageGallery items={images} />
+      </div>
+      <div className="worth">
+        {" "}
+        <h1 className="h2">PRICE:</h1>
+        <div class="wrapper">
+          {" "}
+          <div class="bg"> 185 GEL </div>
+          <div class="fg"> 185 GEL</div>
+        </div>
+      </div>
+    </div>
+  );
+}
+export { Double, Double1 };
