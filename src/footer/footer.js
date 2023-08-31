@@ -8,8 +8,27 @@ import {
 } from "mdb-react-ui-kit";
 import "./footer.css";
 import { Link } from "react-router-dom";
+import call from "react-native-phone-call/index";
 
 function Footer() {
+  const triggercall = () => {
+    const args = {
+      number: " +995 596 22 22 16 ", // String value with the number to call
+      prompt: false, // Optional boolean property. Determines if the user should be prompted prior to the call
+      skipCanOpen: true, // Skip the canOpenURL check
+    };
+
+    call(args).catch(console.error);
+  };
+  const triggercall1 = () => {
+    const args = {
+      number: " +995 511 22 22 16 ", // String value with the number to call
+      prompt: false, // Optional boolean property. Determines if the user should be prompted prior to the call
+      skipCanOpen: true, // Skip the canOpenURL check
+    };
+
+    call(args).catch(console.error);
+  };
   return (
     <MDBFooter className="footer">
       <section className="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
@@ -62,7 +81,10 @@ function Footer() {
             </MDBCol>
 
             <MDBCol md="2" lg="2" xl="2" className="mx-auto mb-4">
-              <h6 className="text-uppercase fw-bold mb-4">გვერდები</h6>
+              <Link to="/">
+                <h6 className="text-uppercase fw-bold mb-4">მთავარი</h6>
+              </Link>
+
               <Link to="/cafe">
                 <p>
                   <a className="text-reset">კაფე-ბარი</a>
@@ -89,7 +111,9 @@ function Footer() {
             </MDBCol>
 
             <MDBCol md="3" lg="2" xl="2" className="mx-auto mb-4">
-              <h6 className="text-uppercase fw-bold mb-4">ლუქსები</h6>
+              <Link to="/suites">
+                <h6 className="text-uppercase fw-bold mb-4">ნომრები</h6>
+              </Link>
               <Link to="/presidentallux">
                 <p>
                   <a className="text-reset">საპრეზიდენტო </a>
@@ -108,31 +132,43 @@ function Footer() {
               </Link>
               <Link to="/standartdouble">
                 <p>
-                  <a className="text-reset">სტანდარტული </a>
+                  <a className="text-reset">ლუქსი </a>
                 </p>
               </Link>
             </MDBCol>
 
             <MDBCol md="4" lg="3" xl="3" className="mx-auto mb-md-0 mb-4">
-              <h6 className="text-uppercase fw-bold mb-4">Contact</h6>
-              <p>
-                <MDBIcon fas icon="map-marker-alt" className="me-3" />
-                გორი,სტალინის გამზირი 26ა
-              </p>
-              <p>
-                <MDBIcon icon="envelope" className="me-3" />
-                hotel.georgia.gold@gmail.com
-              </p>
-              <p>
-                <MDBIcon icon="phone-alt" className="me-3" />{" "}
-                <MDBIcon fas icon="hotel" className="me-3" />
-                +995 596 22 22 16
-              </p>
-              <p>
-                <MDBIcon icon="phone-alt" className="me-3" />
-                <MDBIcon fas icon="glass-martini" className="me-3" />
-                +995 511 22 22 16
-              </p>
+              <Link to="/contact">
+                <h6 className="text-uppercase fw-bold mb-4">კონტაქტი</h6>
+              </Link>
+
+              <Link to="https://www.google.com/maps/dir//Hotel+Georgia+Gold,+26%E1%83%90+%E1%83%A1%E1%83%A2%E1%83%90%E1%83%9A%E1%83%98%E1%83%9C%E1%83%98%E1%83%A1+%E1%83%92%E1%83%90%E1%83%9B%E1%83%96%E1%83%98%E1%83%A0%E1%83%98,+%E1%83%92%E1%83%9D%E1%83%A0%E1%83%98/@41.9857997,44.1112172,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x40449ea6ff9e476b:0xf00d9b53f61f459f!2m2!1d44.1137635!2d41.9858078!3e0?entry=ttu">
+                <p>
+                  <MDBIcon fas icon="map-marker-alt" className="me-3" />
+                  გორი,სტალინის გამზირი 26ა
+                </p>
+              </Link>
+
+              <Link to="mailto:hotel.georgia.gold@gmail.com">
+                <p>
+                  <MDBIcon icon="envelope" className="me-3" />
+                  hotel.georgia.gold@gmail.com
+                </p>
+              </Link>
+              <Link onClick={triggercall}>
+                <p>
+                  <MDBIcon icon="phone-alt" className="me-3" />{" "}
+                  <MDBIcon fas icon="hotel" className="me-3" />
+                  +995 596 22 22 16
+                </p>
+              </Link>
+              <Link onClick={triggercall1}>
+                <p>
+                  <MDBIcon icon="phone-alt" className="me-3" />
+                  <MDBIcon fas icon="glass-martini" className="me-3" />
+                  +995 511 22 22 16
+                </p>
+              </Link>
             </MDBCol>
           </MDBRow>
         </MDBContainer>
@@ -142,6 +178,24 @@ function Footer() {
 }
 
 function Footer1() {
+  const triggercall = () => {
+    const args = {
+      number: " +995 596 22 22 16 ", // String value with the number to call
+      prompt: false, // Optional boolean property. Determines if the user should be prompted prior to the call
+      skipCanOpen: true, // Skip the canOpenURL check
+    };
+
+    call(args).catch(console.error);
+  };
+  const triggercall1 = () => {
+    const args = {
+      number: " +995 511 22 22 16 ", // String value with the number to call
+      prompt: false, // Optional boolean property. Determines if the user should be prompted prior to the call
+      skipCanOpen: true, // Skip the canOpenURL check
+    };
+
+    call(args).catch(console.error);
+  };
   return (
     <MDBFooter className="footer">
       <section className="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
@@ -194,7 +248,9 @@ function Footer1() {
             </MDBCol>
 
             <MDBCol md="2" lg="2" xl="2" className="mx-auto mb-4">
-              <h6 className="text-uppercase fw-bold mb-4">Pages</h6>
+              <Link to="/english">
+                <h6 className="text-uppercase fw-bold mb-4">Main</h6>
+              </Link>
               <Link to="/cafeen">
                 <p>
                   <a className="text-reset">Cafe-Bar</a>
@@ -221,7 +277,9 @@ function Footer1() {
             </MDBCol>
 
             <MDBCol md="3" lg="2" xl="2" className="mx-auto mb-4">
-              <h6 className="text-uppercase fw-bold mb-4">Suites</h6>
+              <Link to="/suitesen">
+                <h6 className="text-uppercase fw-bold mb-4">Suites</h6>
+              </Link>
               <Link to="/presidentalluxen">
                 <p>
                   <a className="text-reset">Presidental Lux</a>
@@ -246,25 +304,36 @@ function Footer1() {
             </MDBCol>
 
             <MDBCol md="4" lg="3" xl="3" className="mx-auto mb-md-0 mb-4">
-              <h6 className="text-uppercase fw-bold mb-4">Contact</h6>
-              <p>
-                <MDBIcon fas icon="map-marker-alt" className="me-3" />
-                Gori, Stalin Avenue 26a
-              </p>
-              <p>
-                <MDBIcon icon="envelope" className="me-3" />
-                hotel.georgia.gold@gmail.com
-              </p>
-              <p>
-                <MDBIcon icon="phone-alt" className="me-3" />{" "}
-                <MDBIcon fas icon="hotel" className="me-3" />
-                +995 596 22 22 16
-              </p>
-              <p>
-                <MDBIcon icon="phone-alt" className="me-3" />
-                <MDBIcon fas icon="glass-martini" className="me-3" />
-                +995 511 22 22 16
-              </p>
+              <Link to="/contacten">
+                <h6 className="text-uppercase fw-bold mb-4">Contact</h6>
+              </Link>
+              <Link to="https://www.google.com/maps/dir//Hotel+Georgia+Gold,+26%E1%83%90+%E1%83%A1%E1%83%A2%E1%83%90%E1%83%9A%E1%83%98%E1%83%9C%E1%83%98%E1%83%A1+%E1%83%92%E1%83%90%E1%83%9B%E1%83%96%E1%83%98%E1%83%A0%E1%83%98,+%E1%83%92%E1%83%9D%E1%83%A0%E1%83%98/@41.9857997,44.1112172,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x40449ea6ff9e476b:0xf00d9b53f61f459f!2m2!1d44.1137635!2d41.9858078!3e0?entry=ttu">
+                <p>
+                  <MDBIcon fas icon="map-marker-alt" className="me-3" />
+                  Gori, Stalin Avenue 26a
+                </p>
+              </Link>
+
+              <Link to="mailto:hotel.georgia.gold@gmail.com">
+                <p>
+                  <MDBIcon icon="envelope" className="me-3" />
+                  hotel.georgia.gold@gmail.com
+                </p>
+              </Link>
+              <Link onClick={triggercall}>
+                <p>
+                  <MDBIcon icon="phone-alt" className="me-3" />{" "}
+                  <MDBIcon fas icon="hotel" className="me-3" />
+                  +995 596 22 22 16
+                </p>
+              </Link>
+              <Link onClick={triggercall1}>
+                <p>
+                  <MDBIcon icon="phone-alt" className="me-3" />
+                  <MDBIcon fas icon="glass-martini" className="me-3" />
+                  +995 511 22 22 16
+                </p>
+              </Link>
             </MDBCol>
           </MDBRow>
         </MDBContainer>

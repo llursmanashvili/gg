@@ -1,7 +1,6 @@
 import React, { useEffect } from "react";
 import { MDBContainer, MDBCol, MDBRow } from "mdb-react-ui-kit";
 import cafe1 from "./photos/cafe/cafe1.jpg";
-import cafe2 from "./photos/cafe/cafe2.jpg";
 import cafe3 from "./photos/cafe/cafe3.jpg";
 import cafe4 from "./photos/cafe/cafe4.jpg";
 import cafe6 from "./photos/cafe/cafe6.jpg";
@@ -65,7 +64,6 @@ function Cafe() {
       </div>
       <div className="container">
         <img className="cafeimg" data-aos="zoom-in" src={cafe1}></img>
-        <img className="cafeimg" data-aos="zoom-in" src={cafe2}></img>
         <img className="cafeimg" data-aos="zoom-in" src={cafe3}></img>
         <img className="cafeimg" data-aos="zoom-in" src={cafe4}></img>
         <img className="cafeimg" data-aos="zoom-in" src={cafe8}></img>
@@ -125,7 +123,6 @@ function Cafe1() {
       </div>
       <div className="container">
         <img className="cafeimg" data-aos="zoom-in" src={cafe1}></img>
-        <img className="cafeimg" data-aos="zoom-in" src={cafe2}></img>
         <img className="cafeimg" data-aos="zoom-in" src={cafe3}></img>
         <img className="cafeimg" data-aos="zoom-in" src={cafe4}></img>
         <img className="cafeimg" data-aos="zoom-in" src={cafe8}></img>

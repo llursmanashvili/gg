@@ -1,4 +1,4 @@
-import React, { useRef, useState } from "react";
+import React, { useRef, useState, useEffect } from "react";
 import standart from "./photos/luxs/luxs1.jpg";
 import { Card, Card1 } from "./card";
 // Import Swiper styles
@@ -20,6 +20,9 @@ import { Image } from "antd";
 import { Carousel } from "antd";
 
 const Navbar1 = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <>
       <div>
@@ -51,6 +54,9 @@ const Navbar1 = () => {
   );
 };
 const Navbar2 = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <>
       <div>

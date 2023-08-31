@@ -1,4 +1,4 @@
-import React, { useRef, useState } from "react";
+import React, { useRef, useState, useEffect } from "react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 import hotel1 from "./photos/hotel/hotel6.jpg";
@@ -21,12 +21,17 @@ import "swiper/css/pagination";
 import "./about.css";
 
 // import required modules
-import { EffectCoverflow, Pagination } from "swiper/modules";
+import { EffectCoverflow, Pagination, Autoplay } from "swiper/modules";
+import { delay } from "framer-motion";
 
 function About() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <>
       <Swiper
+        autoplay={{ delay: 1500 }}
         effect={"coverflow"}
         grabCursor={true}
         centeredSlides={true}
@@ -39,7 +44,7 @@ function About() {
           slideShadows: true,
         }}
         pagination={true}
-        modules={[EffectCoverflow, Pagination]}
+        modules={[EffectCoverflow, Pagination, Autoplay]}
         className="mySwiper"
       >
         <SwiperSlide>
@@ -91,9 +96,13 @@ function About() {
   );
 }
 function Abouten() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <>
       <Swiper
+        autoplay={{ delay: 1500 }}
         effect={"coverflow"}
         grabCursor={true}
         centeredSlides={true}
@@ -106,7 +115,7 @@ function Abouten() {
           slideShadows: true,
         }}
         pagination={true}
-        modules={[EffectCoverflow, Pagination]}
+        modules={[EffectCoverflow, Pagination, Autoplay]}
         className="mySwiper"
       >
         <SwiperSlide>
