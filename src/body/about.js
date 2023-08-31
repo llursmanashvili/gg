@@ -31,7 +31,7 @@ function About() {
   return (
     <>
       <Swiper
-        autoplay={{ delay: 1500 }}
+        autoplay={{ delay: 1000 }}
         effect={"coverflow"}
         grabCursor={true}
         centeredSlides={true}
@@ -102,7 +102,7 @@ function Abouten() {
   return (
     <>
       <Swiper
-        autoplay={{ delay: 1500 }}
+        autoplay={{ delay: 1000 }}
         effect={"coverflow"}
         grabCursor={true}
         centeredSlides={true}
