@@ -202,4 +202,102 @@ function Suite1() {
     </>
   );
 }
-export { Suite, Suite1 };
+function Suite2() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+  return (
+    <>
+      {" "}
+      <h2 className="hh2">Выберите нужный номер</h2>
+      <div className="cardo">
+        <div class="card">
+          <img
+            class="card__background"
+            src={standart}
+            alt="Photo of Cartagena's cathedral at the background and some colonial style houses"
+            width="1920"
+            height="2193"
+          />
+          <div class="card__content | flow">
+            <div class="card__content--container | flow">
+              <h2 class="card__title">стандарт двойник</h2>
+              <p class="card__description">
+                Номер рассчитан на 2-х человек, также есть возможность
+                раздвинуть кровати.
+              </p>
+            </div>
+            <Link to="/standarttwinru">
+              <button class="card__button">Посмотреть подробнее</button>
+            </Link>
+          </div>
+        </div>
+
+        <div class="card">
+          <img
+            class="card__background"
+            src={standart1}
+            alt="Photo of Cartagena's cathedral at the background and some colonial style houses"
+            width="1920"
+            height="2193"
+          />
+          <div class="card__content | flow">
+            <div class="card__content--container | flow">
+              <h2 class="card__title">стандарт двойной</h2>
+              <p class="card__description">
+                Номер рассчитан на двух человек, также есть возможность добавить
+                третью кровать.
+              </p>
+            </div>
+            <Link to="/standartdoubleru">
+              <button class="card__button">Посмотреть подробнее</button>
+            </Link>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            class="card__background"
+            src={family}
+            alt="Photo of Cartagena's cathedral at the background and some colonial style houses"
+            width="1920"
+            height="2193"
+          />
+          <div class="card__content | flow">
+            <div class="card__content--container | flow">
+              <h2 className="card__title">семейный</h2>
+              <p class="card__description">
+                Семейный люкс рассчитан на 4 человек, есть возможность
+                добавления пятой кровати.
+              </p>
+            </div>
+            <Link to="/familyluxru">
+              <button class="card__button">Посмотреть подробнее</button>
+            </Link>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            class="card__background"
+            src={presidental}
+            alt="Photo of Cartagena's cathedral at the background and some colonial style houses"
+            width="1920"
+            height="2193"
+          />
+          <div class="card__content | flow">
+            <div class="card__content--container | flow">
+              <h2 class="card__title">президентский</h2>
+              <p class="card__description">
+                Президентский люкс рассчитан на 2-х человек, при добавлении 3-го
+                места стоимость увеличивается.
+              </p>
+            </div>
+            <Link to="/presidentalluxru">
+              <button class="card__button">Посмотреть подробнее</button>
+            </Link>
+          </div>
+        </div>
+      </div>
+    </>
+  );
+}
+export { Suite, Suite1, Suite2 };

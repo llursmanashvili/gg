@@ -96,4 +96,26 @@ function Double1() {
     </div>
   );
 }
-export { Double, Double1 };
+function Double2() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
+  return (
+    <div className="suites">
+      <div className="suite">
+        <ImageGallery items={images} />
+      </div>
+      <div className="worth">
+        {" "}
+        <h1 className="h2">цена:</h1>
+        <div class="wrapper">
+          {" "}
+          <div class="bg">185 лари</div>
+          <div class="fg">185 лари</div>
+        </div>
+      </div>
+    </div>
+  );
+}
+export { Double, Double1, Double2 };

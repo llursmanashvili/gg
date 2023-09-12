@@ -92,6 +92,52 @@ margin-bottom: 20px;
     color: rgba(213,174,75,255);
 }
 
+.dropdown {
+    margin-top: 25px;
+  width: 100px;
+  height: 50%;
+  border-radius: 10px;
+  
+}
+
+.dropdown-header {
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dropdown-body {
+  border-top: 1px solid #E5E8EC;
+  display: none;
+
+
+}
+
+.dropdown-body.open {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+
+.dropdown-item:hover {
+    background-color: rgba(255, 255, 255, 0.671);
+  cursor: pointer;
+}
+
+
+
+.iconi {
+  color: #91A5BE;
+  transform: rotate(0deg);
+  transition: all .5s ease-in-out;
+}
+
+.iconi.open {
+  transform: rotate(90deg);
+}
+
 
 @media screen and (max-width:940px) {
     .header {

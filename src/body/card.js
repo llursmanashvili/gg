@@ -152,4 +152,79 @@ function Card1() {
     </>
   );
 }
-export { Card, Card1 };
+function Card2() {
+  return (
+    <>
+      {" "}
+      <div class="box-container">
+        <div class="box-item">
+          <div class="flip-box">
+            <div
+              class="flip-box-front text-center"
+              style={{
+                backgroundImage: `url('${hotel}')`,
+              }}
+            >
+              <div class="inner color-white">
+                <h3 class="flip-box-header">Гостиничные номера</h3>
+                <img
+                  src="https://s25.postimg.cc/65hsttv9b/cta-arrow.png"
+                  alt=""
+                  class="flip-box-img"
+                />
+              </div>
+            </div>
+            <div
+              class="flip-box-back text-center"
+              style={{
+                backgroundImage: `url('${hotel}')`,
+              }}
+            >
+              <div class="inner color-white">
+                <h3 class="flip-box-header">Гостиничные номера</h3>
+                <p>Выберите комнату, который вам подходит</p>
+                <Link to="/suitesru">
+                  <button class="flip-box-button">Посмотреть подробнее</button>
+                </Link>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="box-item">
+          <div class="flip-box">
+            <div
+              class="flip-box-front text-center"
+              style={{
+                backgroundImage: `url('${cafe}')`,
+              }}
+            >
+              <div class="inner color-white">
+                <h3 class="flip-box-header">кафе-бар</h3>
+                <img
+                  src="https://s25.postimg.cc/65hsttv9b/cta-arrow.png"
+                  alt=""
+                  class="flip-box-img"
+                />
+              </div>
+            </div>
+            <div
+              class="flip-box-back text-center"
+              style={{
+                backgroundImage: `url('${cafe}')`,
+              }}
+            >
+              <div class="inner color-white">
+                <h3 class="flip-box-header">кафе-бар</h3>
+                <p>Смотрите наше меню и просмотрите галерею</p>
+                <Link to="/caferu">
+                  <button class="flip-box-button">Посмотреть подробнее</button>
+                </Link>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </>
+  );
+}
+export { Card, Card1, Card2 };

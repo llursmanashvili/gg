@@ -24,8 +24,8 @@
     background-clip: text;  
     -webkit-background-clip: text;
     font-family: 'Poppins', sans-serif;
-    font-weight: 400;
-    font-size: clamp( 3em, 5vw, 25rem);
+    font-weight: 100;
+    font-size: clamp( 3em, 4vw, 25rem);
     grid-area: overlap;
     letter-spacing: 1px;
     -webkit-text-stroke: 4px transparent;
@@ -40,9 +40,9 @@
   }
   div.bg {
     background-image: repeating-linear-gradient( 105deg, 
-      var(--gold) 0% , 
-      var(--dark-shadow) 5%,
-      var(--gold) 12%);
+      var(--gold) 100% , 
+      var(--dark-shadow) 8%,
+      var(--gold) 1200%);
     color: transparent;
     filter: drop-shadow(5px 15px 15px black);
     transform: scaleY(1.05);
@@ -51,9 +51,9 @@
   div.fg{
     background-image: repeating-linear-gradient( 5deg,  
       var(--gold) 0% , 
-      var(--light-shadow) 23%, 
-      var(--gold) 31%);
-    color:rgba(3,46,48,255);
+      var(--light-shadow) 193%, 
+      var(--gold) 39%);
+    color:#ffffff;
     transform: scale(1);
     width: 100%;
   }

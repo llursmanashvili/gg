@@ -81,4 +81,26 @@ function Family1() {
     </div>
   );
 }
-export { Family, Family1 };
+function Family2() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
+  return (
+    <div className="suites">
+      <div className="suite">
+        <ImageGallery items={images} />
+      </div>
+      <div className="worth">
+        {" "}
+        <h1 className="h2">Цена:</h1>
+        <div class="wrapper">
+          {" "}
+          <div class="bg"> 285 лари</div>
+          <div class="fg"> 285 лари</div>
+        </div>
+      </div>
+    </div>
+  );
+}
+export { Family, Family1, Family2 };

@@ -165,4 +165,74 @@ function Abouten() {
     </>
   );
 }
-export { About, Abouten };
+function Aboutru() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+  return (
+    <>
+      <Swiper
+        autoplay={{ delay: 1000 }}
+        effect={"coverflow"}
+        grabCursor={true}
+        centeredSlides={true}
+        slidesPerView={"auto"}
+        coverflowEffect={{
+          rotate: 50,
+          stretch: 0,
+          depth: 100,
+          modifier: 1,
+          slideShadows: true,
+        }}
+        pagination={true}
+        modules={[EffectCoverflow, Pagination, Autoplay]}
+        className="mySwiper"
+      >
+        <SwiperSlide>
+          <img src={hotel1} />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={hotel2} />
+        </SwiperSlide>{" "}
+        <SwiperSlide>
+          <img src={hotel3} />
+        </SwiperSlide>{" "}
+        <SwiperSlide>
+          <img src={hotel4} />
+        </SwiperSlide>{" "}
+        <SwiperSlide>
+          <img src={hotel5} />
+        </SwiperSlide>{" "}
+        <SwiperSlide>
+          <img src={hotel6} />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={hotel7} />
+        </SwiperSlide>{" "}
+        <SwiperSlide>
+          <img src={hotel8} />
+        </SwiperSlide>{" "}
+        <SwiperSlide>
+          <img src={hotel9} />
+        </SwiperSlide>{" "}
+        <SwiperSlide>
+          <img src={hotel10} />
+        </SwiperSlide>{" "}
+        <SwiperSlide>
+          <img src={hotel11} />
+        </SwiperSlide>
+      </Swiper>
+      <h1 className="h1">
+        В отеле "Georgia Gold" есть все для комфортного отдыха гостей: ▪️
+        гостеприимная команда ▪️ элегантная обстановка ▪️ стандартные, люксовые,
+        семейные и президентские номера ▪️ самый большой бассейн в Гори ▪️
+        кафе-бар с необыкновенными блюдами, напитками и десертами ▪️
+        конференц-зал ▪️ транспортные услуги ▪️ спортивные фитнес-упражнения
+        (йога, аква-аэробика и фитнес-аэробика) ▪️ красивые исторические виды
+        Отель расположен в центре города, в известном и удобном для всех месте:
+        св. <b>Гори, Сталини 26а</b>
+      </h1>
+    </>
+  );
+}
+export { About, Abouten, Aboutru };
