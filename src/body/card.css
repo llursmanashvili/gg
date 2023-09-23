@@ -17,13 +17,17 @@ html {
   }
   
   .box-container {
+    
     align-items: center;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    padding: 35px 15px;
+    padding: 35px 10px;
     width: 100%;
     
+  }
+  .flip-box{
+    margin: 2px;
   }
   
   @media screen and (max-width:880px) {

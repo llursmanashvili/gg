@@ -14,6 +14,7 @@ import {
   Presidental1,
   Presidental2,
 } from "./body/suites/presidental";
+import { Fitness, Fitnessen, Fitnessru } from "./body/fitness";
 import { About, Abouten, Aboutru } from "./body/about";
 function App() {
   return (
@@ -114,6 +115,18 @@ function App() {
         <Route
           path="/presidentalluxru"
           element={[<Navbarru />, <Presidental2 />, <Footer2 />]}
+        />
+        <Route
+          path="/fitness"
+          element={[<Navbar />, <Fitness />, <Footer />]}
+        />
+        <Route
+          path="/fitnessen"
+          element={[<Navbaren />, <Fitnessen />, <Footer1 />]}
+        />
+        <Route
+          path="/fitnessru"
+          element={[<Navbarru />, <Fitnessru />, <Footer2 />]}
         />
       </Routes>
       <footer></footer>

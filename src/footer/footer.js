@@ -6,6 +6,7 @@ import {
   MDBCol,
   MDBIcon,
 } from "mdb-react-ui-kit";
+
 import "./footer.css";
 import { Link } from "react-router-dom";
 import call from "react-native-phone-call/index";
@@ -94,6 +95,11 @@ function Footer() {
               <Link to="/suites">
                 <p>
                   <a className="text-reset">ნომრები</a>
+                </p>
+              </Link>
+              <Link to="/fitness">
+                <p>
+                  <a className="text-reset">ფიტნესი</a>
                 </p>
               </Link>
 
@@ -262,6 +268,11 @@ function Footer1() {
                   <a className="text-reset">Suites</a>
                 </p>
               </Link>
+              <Link to="/fitnessen">
+                <p>
+                  <a className="text-reset">Fitness</a>
+                </p>
+              </Link>
 
               <Link to="/abouten">
                 <p>
@@ -414,25 +425,30 @@ function Footer2() {
               <Link to="/english">
                 <h6 className="text-uppercase fw-bold mb-4">Главная</h6>
               </Link>
-              <Link to="/cafeen">
+              <Link to="/caferu">
                 <p>
                   <a className="text-reset">Кафе-Бар</a>
                 </p>
               </Link>
+              <Link to="/fitnessru">
+                <p>
+                  <a className="text-reset">Фитнес</a>
+                </p>
+              </Link>
 
-              <Link to="/suitesen">
+              <Link to="/suitesru">
                 <p>
                   <a className="text-reset">апартаменты</a>
                 </p>
               </Link>
 
-              <Link to="/abouten">
+              <Link to="/aboutru">
                 <p>
                   <a className="text-reset">о нас</a>
                 </p>
               </Link>
 
-              <Link to="/contacten">
+              <Link to="/contactru">
                 <p>
                   <a className="text-reset">Контакт</a>
                 </p>
@@ -443,23 +459,23 @@ function Footer2() {
               <Link to="/suitesen">
                 <h6 className="text-uppercase fw-bold mb-4">апартаменты</h6>
               </Link>
-              <Link to="/presidentalluxen">
+              <Link to="/presidentalluxru">
                 <p>
                   <a className="text-reset">Президентский Люкс</a>
                 </p>
               </Link>
 
-              <Link to="/familyluxen">
+              <Link to="/familyluxru">
                 <p>
                   <a className="text-reset">Семейный люкс</a>
                 </p>
               </Link>
-              <Link to="/standarttwinen">
+              <Link to="/standarttwinru">
                 <p>
                   <a className="text-reset">Стандартный двойник</a>
                 </p>
               </Link>
-              <Link to="/standartdoubleen">
+              <Link to="/standartdoubleru">
                 <p>
                   <a className="text-reset">Стандарт двойной</a>
                 </p>

@@ -8,7 +8,6 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 import { Link } from "react-router-dom";
 import "./Navbar1.css";
-
 // import required modules
 import image1 from "./carousel/carousel2.JPG";
 
@@ -49,7 +48,7 @@ const Navbar1 = () => {
             <button className="bookingi">დაჯავშნეთ სასურველი ნომერი</button>
           </Link>
         </div>
-      </div>
+      </div>{" "}
     </>
   );
 };
