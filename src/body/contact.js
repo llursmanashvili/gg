@@ -98,7 +98,7 @@ const Contact = () => {
                 type="submit"
                 value="Send"
                 onClick={() => {
-                  window.location.reload(false);
+                  alert("მესიჯი გაგზავნილია");
                 }}
               />
             </form>
@@ -122,10 +122,7 @@ const Contact1 = () => {
         "orN1q6mtqVo2S8P6L"
       )
       .then(
-        (result) => {
-          console.log(result.text);
-          console.log("message sent");
-        },
+        (result) => {},
         (error) => {
           console.log(error.text);
         }
@@ -198,7 +195,7 @@ const Contact1 = () => {
                 type="submit"
                 value="Send"
                 onClick={() => {
-                  window.location.reload(false);
+                  alert("The message has been sent");
                 }}
               />
             </form>
@@ -222,10 +219,7 @@ const Contact2 = () => {
         "orN1q6mtqVo2S8P6L"
       )
       .then(
-        (result) => {
-          console.log(result.text);
-          console.log("message sent");
-        },
+        (result) => {},
         (error) => {
           console.log(error.text);
         }
@@ -298,7 +292,7 @@ const Contact2 = () => {
                 type="submit"
                 value="Send"
                 onClick={() => {
-                  window.location.reload(false);
+                  alert("Сообщение отправлено");
                 }}
               />
             </form>

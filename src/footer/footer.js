@@ -422,7 +422,7 @@ function Footer2() {
             </MDBCol>
 
             <MDBCol md="2" lg="2" xl="2" className="mx-auto mb-4">
-              <Link to="/english">
+              <Link to="/russian">
                 <h6 className="text-uppercase fw-bold mb-4">Главная</h6>
               </Link>
               <Link to="/caferu">
@@ -456,7 +456,7 @@ function Footer2() {
             </MDBCol>
 
             <MDBCol md="3" lg="2" xl="2" className="mx-auto mb-4">
-              <Link to="/suitesen">
+              <Link to="/suitesru">
                 <h6 className="text-uppercase fw-bold mb-4">апартаменты</h6>
               </Link>
               <Link to="/presidentalluxru">
@@ -483,7 +483,7 @@ function Footer2() {
             </MDBCol>
 
             <MDBCol md="4" lg="3" xl="3" className="mx-auto mb-md-0 mb-4">
-              <Link to="/contacten">
+              <Link to="/contactru">
                 <h6 className="text-uppercase fw-bold mb-4">Контакты</h6>
               </Link>
               <Link to="https://www.google.com/maps/dir//Hotel+Georgia+Gold,+26%E1%83%90+%E1%83%A1%E1%83%A2%E1%83%90%E1%83%9A%E1%83%98%E1%83%9C%E1%83%98%E1%83%A1+%E1%83%92%E1%83%90%E1%83%9B%E1%83%96%E1%83%98%E1%83%A0%E1%83%98,+%E1%83%92%E1%83%9D%E1%83%A0%E1%83%98/@41.9857997,44.1112172,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x40449ea6ff9e476b:0xf00d9b53f61f459f!2m2!1d44.1137635!2d41.9858078!3e0?entry=ttu">
