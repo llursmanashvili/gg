@@ -31,10 +31,10 @@ function Navbar() {
     <div className="header">
       <nav className="navbar">
         <Link to="/">
-          <img src={logo} alt="logo" />
+          <img src={logo} alt="hotel georgia gold" />
         </Link>
         {/* <a href="#1" className="logo">
-        <img src={logo} alt="logo" />
+        <img  src={logo} alt="hotel georgia gold" />
         </a> */}
         <div className="hamburger" onClick={handleClick}>
           {click ? (
@@ -111,7 +111,7 @@ function Navbaren() {
     <div className="header">
       <nav className="navbar">
         <Link to="/english">
-          <img src={logo} alt="logo" />
+          <img src={logo} alt="hotel georgia gold" />
         </Link>
 
         <div className="hamburger" onClick={handleClick}>
@@ -188,7 +188,7 @@ function Navbarru() {
     <div className="header">
       <nav className="navbar">
         <Link to="/russian">
-          <img src={logo} alt="logo" />
+          <img src={logo} alt="hotel georgia gold" />
         </Link>
 
         <div className="hamburger" onClick={handleClick}>

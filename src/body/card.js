@@ -20,7 +20,7 @@ function Card() {
                 <h3 class="flip-box-header">სასტუმროს ნომრები</h3>
                 <img
                   src="https://s25.postimg.cc/65hsttv9b/cta-arrow.png"
-                  alt=""
+                  alt="hotel georgia gold"
                   class="flip-box-img"
                 />
               </div>
@@ -53,7 +53,7 @@ function Card() {
                 <h3 class="flip-box-header">კაფე-ბარი</h3>
                 <img
                   src="https://s25.postimg.cc/65hsttv9b/cta-arrow.png"
-                  alt=""
+                  alt="hotel georgia gold"
                   class="flip-box-img"
                 />
               </div>
@@ -86,7 +86,7 @@ function Card() {
                 <h3 class="flip-box-header">ფიტნესი</h3>
                 <img
                   src="https://s25.postimg.cc/65hsttv9b/cta-arrow.png"
-                  alt=""
+                  alt="hotel georgia gold"
                   class="flip-box-img"
                 />
               </div>
@@ -128,7 +128,7 @@ function Card1() {
                 <h3 class="flip-box-header">Hotel Rooms</h3>
                 <img
                   src="https://s25.postimg.cc/65hsttv9b/cta-arrow.png"
-                  alt=""
+                  alt="hotel georgia gold"
                   class="flip-box-img"
                 />
               </div>
@@ -161,7 +161,7 @@ function Card1() {
                 <h3 class="flip-box-header">Cafe-Bar</h3>
                 <img
                   src="https://s25.postimg.cc/65hsttv9b/cta-arrow.png"
-                  alt=""
+                  alt="hotel georgia gold"
                   class="flip-box-img"
                 />
               </div>
@@ -194,7 +194,7 @@ function Card1() {
                 <h3 class="flip-box-header">Fitness</h3>
                 <img
                   src="https://s25.postimg.cc/65hsttv9b/cta-arrow.png"
-                  alt=""
+                  alt="hotel georgia gold"
                   class="flip-box-img"
                 />
               </div>
@@ -238,7 +238,7 @@ function Card2() {
                 <h3 class="flip-box-header">Гостиничные номера</h3>
                 <img
                   src="https://s25.postimg.cc/65hsttv9b/cta-arrow.png"
-                  alt=""
+                  alt="hotel georgia gold"
                   class="flip-box-img"
                 />
               </div>
@@ -271,7 +271,7 @@ function Card2() {
                 <h3 class="flip-box-header">кафе-бар</h3>
                 <img
                   src="https://s25.postimg.cc/65hsttv9b/cta-arrow.png"
-                  alt=""
+                  alt="hotel georgia gold"
                   class="flip-box-img"
                 />
               </div>
@@ -304,7 +304,7 @@ function Card2() {
                 <h3 class="flip-box-header">Фитнес</h3>
                 <img
                   src="https://s25.postimg.cc/65hsttv9b/cta-arrow.png"
-                  alt=""
+                  alt="hotel georgia gold"
                   class="flip-box-img"
                 />
               </div>

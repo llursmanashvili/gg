@@ -48,37 +48,37 @@ function About() {
         className="mySwiper"
       >
         <SwiperSlide>
-          <img src={hotel1} />
+          <img alt="hotel georgia gold" src={hotel1} />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={hotel2} />
+          <img alt="hotel georgia gold" src={hotel2} />
         </SwiperSlide>{" "}
         <SwiperSlide>
-          <img src={hotel3} />
+          <img alt="hotel georgia gold" src={hotel3} />
         </SwiperSlide>{" "}
         <SwiperSlide>
-          <img src={hotel4} />
+          <img alt="hotel georgia gold" src={hotel4} />
         </SwiperSlide>{" "}
         <SwiperSlide>
-          <img src={hotel5} />
+          <img alt="hotel georgia gold" src={hotel5} />
         </SwiperSlide>{" "}
         <SwiperSlide>
-          <img src={hotel6} />
+          <img alt="hotel georgia gold" src={hotel6} />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={hotel7} />
+          <img alt="hotel georgia gold" src={hotel7} />
         </SwiperSlide>{" "}
         <SwiperSlide>
-          <img src={hotel8} />
+          <img alt="hotel georgia gold" src={hotel8} />
         </SwiperSlide>{" "}
         <SwiperSlide>
-          <img src={hotel9} />
+          <img alt="hotel georgia gold" src={hotel9} />
         </SwiperSlide>{" "}
         <SwiperSlide>
-          <img src={hotel10} />
+          <img alt="hotel georgia gold" src={hotel10} />
         </SwiperSlide>{" "}
         <SwiperSlide>
-          <img src={hotel11} />
+          <img alt="hotel georgia gold" src={hotel11} />
         </SwiperSlide>
       </Swiper>
       <h1 className="h1">
@@ -119,37 +119,37 @@ function Abouten() {
         className="mySwiper"
       >
         <SwiperSlide>
-          <img src={hotel1} />
+          <img alt="hotel georgia gold" src={hotel1} />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={hotel2} />
+          <img alt="hotel georgia gold" src={hotel2} />
         </SwiperSlide>{" "}
         <SwiperSlide>
-          <img src={hotel3} />
+          <img alt="hotel georgia gold" src={hotel3} />
         </SwiperSlide>{" "}
         <SwiperSlide>
-          <img src={hotel4} />
+          <img alt="hotel georgia gold" src={hotel4} />
         </SwiperSlide>{" "}
         <SwiperSlide>
-          <img src={hotel5} />
+          <img alt="hotel georgia gold" src={hotel5} />
         </SwiperSlide>{" "}
         <SwiperSlide>
-          <img src={hotel6} />
+          <img alt="hotel georgia gold" src={hotel6} />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={hotel7} />
+          <img alt="hotel georgia gold" src={hotel7} />
         </SwiperSlide>{" "}
         <SwiperSlide>
-          <img src={hotel8} />
+          <img alt="hotel georgia gold" src={hotel8} />
         </SwiperSlide>{" "}
         <SwiperSlide>
-          <img src={hotel9} />
+          <img alt="hotel georgia gold" src={hotel9} />
         </SwiperSlide>{" "}
         <SwiperSlide>
-          <img src={hotel10} />
+          <img alt="hotel georgia gold" src={hotel10} />
         </SwiperSlide>{" "}
         <SwiperSlide>
-          <img src={hotel11} />
+          <img alt="hotel georgia gold" src={hotel11} />
         </SwiperSlide>
       </Swiper>
       <h1 className="h1">
@@ -189,37 +189,37 @@ function Aboutru() {
         className="mySwiper"
       >
         <SwiperSlide>
-          <img src={hotel1} />
+          <img alt="hotel georgia gold" src={hotel1} />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={hotel2} />
+          <img alt="hotel georgia gold" src={hotel2} />
         </SwiperSlide>{" "}
         <SwiperSlide>
-          <img src={hotel3} />
+          <img alt="hotel georgia gold" src={hotel3} />
         </SwiperSlide>{" "}
         <SwiperSlide>
-          <img src={hotel4} />
+          <img alt="hotel georgia gold" src={hotel4} />
         </SwiperSlide>{" "}
         <SwiperSlide>
-          <img src={hotel5} />
+          <img alt="hotel georgia gold" src={hotel5} />
         </SwiperSlide>{" "}
         <SwiperSlide>
-          <img src={hotel6} />
+          <img alt="hotel georgia gold" src={hotel6} />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={hotel7} />
+          <img alt="hotel georgia gold" src={hotel7} />
         </SwiperSlide>{" "}
         <SwiperSlide>
-          <img src={hotel8} />
+          <img alt="hotel georgia gold" src={hotel8} />
         </SwiperSlide>{" "}
         <SwiperSlide>
-          <img src={hotel9} />
+          <img alt="hotel georgia gold" src={hotel9} />
         </SwiperSlide>{" "}
         <SwiperSlide>
-          <img src={hotel10} />
+          <img alt="hotel georgia gold" src={hotel10} />
         </SwiperSlide>{" "}
         <SwiperSlide>
-          <img src={hotel11} />
+          <img alt="hotel georgia gold" src={hotel11} />
         </SwiperSlide>
       </Swiper>
       <h1 className="h1">

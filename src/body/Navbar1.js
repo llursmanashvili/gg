@@ -27,16 +27,32 @@ const Navbar1 = () => {
       <div>
         <Carousel className="carousel" autoplay effect="fade">
           <div>
-            <Image fallback={image1} className="contentStyle" />
+            <Image
+              alt="hotel georgia gold"
+              fallback={image1}
+              className="contentStyle"
+            />
           </div>{" "}
           <div>
-            <Image fallback={image5} className="contentStyle" />
+            <Image
+              alt="hotel georgia gold"
+              fallback={image5}
+              className="contentStyle"
+            />
           </div>
           <div>
-            <Image fallback={image6} className="contentStyle" />
+            <Image
+              alt="hotel georgia gold"
+              fallback={image6}
+              className="contentStyle"
+            />
           </div>
           <div>
-            <Image fallback={image7} className="contentStyle" />
+            <Image
+              alt="hotel georgia gold"
+              fallback={image7}
+              className="contentStyle"
+            />
           </div>
         </Carousel>
       </div>
@@ -61,16 +77,32 @@ const Navbar2 = () => {
       <div>
         <Carousel className="carousel" autoplay effect="fade">
           <div>
-            <Image fallback={image1} className="contentStyle" />
+            <Image
+              alt="hotel georgia gold"
+              fallback={image1}
+              className="contentStyle"
+            />
           </div>{" "}
           <div>
-            <Image fallback={image5} className="contentStyle" />
+            <Image
+              alt="hotel georgia gold"
+              fallback={image5}
+              className="contentStyle"
+            />
           </div>
           <div>
-            <Image fallback={image6} className="contentStyle" />
+            <Image
+              alt="hotel georgia gold"
+              fallback={image6}
+              className="contentStyle"
+            />
           </div>
           <div>
-            <Image fallback={image7} className="contentStyle" />
+            <Image
+              alt="hotel georgia gold"
+              fallback={image7}
+              className="contentStyle"
+            />
           </div>
         </Carousel>
       </div>
@@ -95,16 +127,32 @@ const Navbar3 = () => {
       <div>
         <Carousel className="carousel" autoplay effect="fade">
           <div>
-            <Image fallback={image1} className="contentStyle" />
+            <Image
+              alt="hotel georgia gold"
+              fallback={image1}
+              className="contentStyle"
+            />
           </div>{" "}
           <div>
-            <Image fallback={image5} className="contentStyle" />
+            <Image
+              alt="hotel georgia gold"
+              fallback={image5}
+              className="contentStyle"
+            />
           </div>
           <div>
-            <Image fallback={image6} className="contentStyle" />
+            <Image
+              alt="hotel georgia gold"
+              fallback={image6}
+              className="contentStyle"
+            />
           </div>
           <div>
-            <Image fallback={image7} className="contentStyle" />
+            <Image
+              alt="hotel georgia gold"
+              fallback={image7}
+              className="contentStyle"
+            />
           </div>
         </Carousel>
       </div>

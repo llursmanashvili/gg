@@ -49,28 +49,28 @@ export default function Npp() {
         }}
       >
         <SwiperSlide style={{ height: "100%" }}>
-          <img src={fitness6} />
+          <img alt="hotel georgia gold" src={fitness6} />
         </SwiperSlide>
         <SwiperSlide style={{ height: "100%" }}>
-          <img src={fitness7} />
+          <img alt="hotel georgia gold" src={fitness7} />
         </SwiperSlide>
         <SwiperSlide style={{ height: "100%" }}>
-          <img src={fitness8} />
+          <img alt="hotel georgia gold" src={fitness8} />
         </SwiperSlide>
         <SwiperSlide style={{ height: "100%" }}>
-          <img src={fitness} />
+          <img alt="hotel georgia gold" src={fitness} />
         </SwiperSlide>
         <SwiperSlide style={{ height: "100%" }}>
-          <img src={fitness1} />
+          <img alt="hotel georgia gold" src={fitness1} />
         </SwiperSlide>
         <SwiperSlide style={{ height: "100%" }}>
-          <img src={fitness2} />
+          <img alt="hotel georgia gold" src={fitness2} />
         </SwiperSlide>
         <SwiperSlide style={{ height: "100%" }}>
-          <img src={fitness3} />
+          <img alt="hotel georgia gold" src={fitness3} />
         </SwiperSlide>
         <SwiperSlide style={{ height: "100%" }}>
-          <img src={fitness4} />
+          <img alt="hotel georgia gold" src={fitness4} />
         </SwiperSlide>
       </Swiper>
     </>

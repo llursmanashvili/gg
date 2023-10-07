@@ -63,25 +63,120 @@ function Cafe() {
         </h3>
       </div>
       <div className="container">
-        <img className="cafeimg" data-aos="zoom-in" src={cafe1}></img>
-        <img className="cafeimg" data-aos="zoom-in" src={cafe3}></img>
-        <img className="cafeimg" data-aos="zoom-in" src={cafe4}></img>
-        <img className="cafeimg" data-aos="zoom-in" src={cafe8}></img>
-        <img className="cafeimg" data-aos="zoom-in" src={cafe9}></img>
-        <img className="cafeimgi" data-aos="zoom-in" src={cafe6}></img>
-        <img className="cafeimgi" data-aos="zoom-in" src={cafe7}></img>
-        <img className="cafeimgi" data-aos="zoom-in" src={cafe11}></img>
-        <img className="cafeimgi" data-aos="zoom-in" src={cafe12}></img>
-        <img className="cafeimgi" data-aos="zoom-in" src={cafe13}></img>
-        <img className="cafeimgi" data-aos="zoom-in" src={cafe14}></img>
-        <img className="cafeimgi" data-aos="zoom-in" src={cafe15}></img>
-        <img className="cafeimgi" data-aos="zoom-in" src={cafe16}></img>
-        <img className="cafeimgi" data-aos="zoom-in" src={cafe17}></img>
-        <img className="cafeimgi" data-aos="zoom-in" src={cafe18}></img>
-        <img className="cafeimgi" data-aos="zoom-in" src={cafe19}></img>
-        <img className="cafeimgi" data-aos="zoom-in" src={cafe20}></img>
-        <img className="cafeimgi" data-aos="zoom-in" src={cafe21}></img>
-        <img className="cafeimgi" data-aos="zoom-in" src={cafe24}></img>
+        <img
+          className="cafeimg"
+          data-aos="zoom-in"
+          alt="hotel georgia gold"
+          src={cafe1}
+        ></img>
+        <img
+          className="cafeimg"
+          data-aos="zoom-in"
+          alt="hotel georgia gold"
+          src={cafe3}
+        ></img>
+        <img
+          className="cafeimg"
+          data-aos="zoom-in"
+          alt="hotel georgia gold"
+          src={cafe4}
+        ></img>
+        <img
+          className="cafeimg"
+          data-aos="zoom-in"
+          alt="hotel georgia gold"
+          src={cafe8}
+        ></img>
+        <img
+          className="cafeimg"
+          data-aos="zoom-in"
+          alt="hotel georgia gold"
+          src={cafe9}
+        ></img>
+        <img
+          className="cafeimgi"
+          data-aos="zoom-in"
+          alt="hotel georgia gold"
+          src={cafe6}
+        ></img>
+        <img
+          className="cafeimgi"
+          data-aos="zoom-in"
+          alt="hotel georgia gold"
+          src={cafe7}
+        ></img>
+        <img
+          className="cafeimgi"
+          data-aos="zoom-in"
+          alt="hotel georgia gold"
+          src={cafe11}
+        ></img>
+        <img
+          className="cafeimgi"
+          data-aos="zoom-in"
+          alt="hotel georgia gold"
+          src={cafe12}
+        ></img>
+        <img
+          className="cafeimgi"
+          data-aos="zoom-in"
+          alt="hotel georgia gold"
+          src={cafe13}
+        ></img>
+        <img
+          className="cafeimgi"
+          data-aos="zoom-in"
+          alt="hotel georgia gold"
+          src={cafe14}
+        ></img>
+        <img
+          className="cafeimgi"
+          data-aos="zoom-in"
+          alt="hotel georgia gold"
+          src={cafe15}
+        ></img>
+        <img
+          className="cafeimgi"
+          data-aos="zoom-in"
+          alt="hotel georgia gold"
+          src={cafe16}
+        ></img>
+        <img
+          className="cafeimgi"
+          data-aos="zoom-in"
+          alt="hotel georgia gold"
+          src={cafe17}
+        ></img>
+        <img
+          className="cafeimgi"
+          data-aos="zoom-in"
+          alt="hotel georgia gold"
+          src={cafe18}
+        ></img>
+        <img
+          className="cafeimgi"
+          data-aos="zoom-in"
+          alt="hotel georgia gold"
+          src={cafe19}
+        ></img>
+        <img
+          className="cafeimgi"
+          data-aos="zoom-in"
+          alt="hotel georgia gold"
+          src={cafe20}
+        ></img>
+        <img
+          className="cafeimgi"
+          data-aos="zoom-in"
+          alt="hotel georgia gold"
+          src={cafe21}
+        ></img>
+        <img
+          className="cafeimgi"
+          data-aos="zoom-in"
+          alt="hotel georgia gold"
+          src={cafe24}
+        ></img>
       </div>
     </div>
   );
@@ -122,25 +217,120 @@ function Cafe1() {
         </h3>
       </div>
       <div className="container">
-        <img className="cafeimg" data-aos="zoom-in" src={cafe1}></img>
-        <img className="cafeimg" data-aos="zoom-in" src={cafe3}></img>
-        <img className="cafeimg" data-aos="zoom-in" src={cafe4}></img>
-        <img className="cafeimg" data-aos="zoom-in" src={cafe8}></img>
-        <img className="cafeimg" data-aos="zoom-in" src={cafe9}></img>
-        <img className="cafeimgi" data-aos="zoom-in" src={cafe6}></img>
-        <img className="cafeimgi" data-aos="zoom-in" src={cafe7}></img>
-        <img className="cafeimgi" data-aos="zoom-in" src={cafe11}></img>
-        <img className="cafeimgi" data-aos="zoom-in" src={cafe12}></img>
-        <img className="cafeimgi" data-aos="zoom-in" src={cafe13}></img>
-        <img className="cafeimgi" data-aos="zoom-in" src={cafe14}></img>
-        <img className="cafeimgi" data-aos="zoom-in" src={cafe15}></img>
-        <img className="cafeimgi" data-aos="zoom-in" src={cafe16}></img>
-        <img className="cafeimgi" data-aos="zoom-in" src={cafe17}></img>
-        <img className="cafeimgi" data-aos="zoom-in" src={cafe18}></img>
-        <img className="cafeimgi" data-aos="zoom-in" src={cafe19}></img>
-        <img className="cafeimgi" data-aos="zoom-in" src={cafe20}></img>
-        <img className="cafeimgi" data-aos="zoom-in" src={cafe21}></img>
-        <img className="cafeimgi" data-aos="zoom-in" src={cafe24}></img>
+        <img
+          className="cafeimg"
+          data-aos="zoom-in"
+          alt="hotel georgia gold"
+          src={cafe1}
+        ></img>
+        <img
+          className="cafeimg"
+          data-aos="zoom-in"
+          alt="hotel georgia gold"
+          src={cafe3}
+        ></img>
+        <img
+          className="cafeimg"
+          data-aos="zoom-in"
+          alt="hotel georgia gold"
+          src={cafe4}
+        ></img>
+        <img
+          className="cafeimg"
+          data-aos="zoom-in"
+          alt="hotel georgia gold"
+          src={cafe8}
+        ></img>
+        <img
+          className="cafeimg"
+          data-aos="zoom-in"
+          alt="hotel georgia gold"
+          src={cafe9}
+        ></img>
+        <img
+          className="cafeimgi"
+          data-aos="zoom-in"
+          alt="hotel georgia gold"
+          src={cafe6}
+        ></img>
+        <img
+          className="cafeimgi"
+          data-aos="zoom-in"
+          alt="hotel georgia gold"
+          src={cafe7}
+        ></img>
+        <img
+          className="cafeimgi"
+          data-aos="zoom-in"
+          alt="hotel georgia gold"
+          src={cafe11}
+        ></img>
+        <img
+          className="cafeimgi"
+          data-aos="zoom-in"
+          alt="hotel georgia gold"
+          src={cafe12}
+        ></img>
+        <img
+          className="cafeimgi"
+          data-aos="zoom-in"
+          alt="hotel georgia gold"
+          src={cafe13}
+        ></img>
+        <img
+          className="cafeimgi"
+          data-aos="zoom-in"
+          alt="hotel georgia gold"
+          src={cafe14}
+        ></img>
+        <img
+          className="cafeimgi"
+          data-aos="zoom-in"
+          alt="hotel georgia gold"
+          src={cafe15}
+        ></img>
+        <img
+          className="cafeimgi"
+          data-aos="zoom-in"
+          alt="hotel georgia gold"
+          src={cafe16}
+        ></img>
+        <img
+          className="cafeimgi"
+          data-aos="zoom-in"
+          alt="hotel georgia gold"
+          src={cafe17}
+        ></img>
+        <img
+          className="cafeimgi"
+          data-aos="zoom-in"
+          alt="hotel georgia gold"
+          src={cafe18}
+        ></img>
+        <img
+          className="cafeimgi"
+          data-aos="zoom-in"
+          alt="hotel georgia gold"
+          src={cafe19}
+        ></img>
+        <img
+          className="cafeimgi"
+          data-aos="zoom-in"
+          alt="hotel georgia gold"
+          src={cafe20}
+        ></img>
+        <img
+          className="cafeimgi"
+          data-aos="zoom-in"
+          alt="hotel georgia gold"
+          src={cafe21}
+        ></img>
+        <img
+          className="cafeimgi"
+          data-aos="zoom-in"
+          alt="hotel georgia gold"
+          src={cafe24}
+        ></img>
       </div>
     </div>
   );
@@ -181,25 +371,120 @@ function Cafe2() {
         </h3>
       </div>
       <div className="container">
-        <img className="cafeimg" data-aos="zoom-in" src={cafe1}></img>
-        <img className="cafeimg" data-aos="zoom-in" src={cafe3}></img>
-        <img className="cafeimg" data-aos="zoom-in" src={cafe4}></img>
-        <img className="cafeimg" data-aos="zoom-in" src={cafe8}></img>
-        <img className="cafeimg" data-aos="zoom-in" src={cafe9}></img>
-        <img className="cafeimgi" data-aos="zoom-in" src={cafe6}></img>
-        <img className="cafeimgi" data-aos="zoom-in" src={cafe7}></img>
-        <img className="cafeimgi" data-aos="zoom-in" src={cafe11}></img>
-        <img className="cafeimgi" data-aos="zoom-in" src={cafe12}></img>
-        <img className="cafeimgi" data-aos="zoom-in" src={cafe13}></img>
-        <img className="cafeimgi" data-aos="zoom-in" src={cafe14}></img>
-        <img className="cafeimgi" data-aos="zoom-in" src={cafe15}></img>
-        <img className="cafeimgi" data-aos="zoom-in" src={cafe16}></img>
-        <img className="cafeimgi" data-aos="zoom-in" src={cafe17}></img>
-        <img className="cafeimgi" data-aos="zoom-in" src={cafe18}></img>
-        <img className="cafeimgi" data-aos="zoom-in" src={cafe19}></img>
-        <img className="cafeimgi" data-aos="zoom-in" src={cafe20}></img>
-        <img className="cafeimgi" data-aos="zoom-in" src={cafe21}></img>
-        <img className="cafeimgi" data-aos="zoom-in" src={cafe24}></img>
+        <img
+          className="cafeimg"
+          data-aos="zoom-in"
+          alt="hotel georgia gold"
+          src={cafe1}
+        ></img>
+        <img
+          className="cafeimg"
+          data-aos="zoom-in"
+          alt="hotel georgia gold"
+          src={cafe3}
+        ></img>
+        <img
+          className="cafeimg"
+          data-aos="zoom-in"
+          alt="hotel georgia gold"
+          src={cafe4}
+        ></img>
+        <img
+          className="cafeimg"
+          data-aos="zoom-in"
+          alt="hotel georgia gold"
+          src={cafe8}
+        ></img>
+        <img
+          className="cafeimg"
+          data-aos="zoom-in"
+          alt="hotel georgia gold"
+          src={cafe9}
+        ></img>
+        <img
+          className="cafeimgi"
+          data-aos="zoom-in"
+          alt="hotel georgia gold"
+          src={cafe6}
+        ></img>
+        <img
+          className="cafeimgi"
+          data-aos="zoom-in"
+          alt="hotel georgia gold"
+          src={cafe7}
+        ></img>
+        <img
+          className="cafeimgi"
+          data-aos="zoom-in"
+          alt="hotel georgia gold"
+          src={cafe11}
+        ></img>
+        <img
+          className="cafeimgi"
+          data-aos="zoom-in"
+          alt="hotel georgia gold"
+          src={cafe12}
+        ></img>
+        <img
+          className="cafeimgi"
+          data-aos="zoom-in"
+          alt="hotel georgia gold"
+          src={cafe13}
+        ></img>
+        <img
+          className="cafeimgi"
+          data-aos="zoom-in"
+          alt="hotel georgia gold"
+          src={cafe14}
+        ></img>
+        <img
+          className="cafeimgi"
+          data-aos="zoom-in"
+          alt="hotel georgia gold"
+          src={cafe15}
+        ></img>
+        <img
+          className="cafeimgi"
+          data-aos="zoom-in"
+          alt="hotel georgia gold"
+          src={cafe16}
+        ></img>
+        <img
+          className="cafeimgi"
+          data-aos="zoom-in"
+          alt="hotel georgia gold"
+          src={cafe17}
+        ></img>
+        <img
+          className="cafeimgi"
+          data-aos="zoom-in"
+          alt="hotel georgia gold"
+          src={cafe18}
+        ></img>
+        <img
+          className="cafeimgi"
+          data-aos="zoom-in"
+          alt="hotel georgia gold"
+          src={cafe19}
+        ></img>
+        <img
+          className="cafeimgi"
+          data-aos="zoom-in"
+          alt="hotel georgia gold"
+          src={cafe20}
+        ></img>
+        <img
+          className="cafeimgi"
+          data-aos="zoom-in"
+          alt="hotel georgia gold"
+          src={cafe21}
+        ></img>
+        <img
+          className="cafeimgi"
+          data-aos="zoom-in"
+          alt="hotel georgia gold"
+          src={cafe24}
+        ></img>
       </div>
     </div>
   );
