@@ -28,8 +28,21 @@
      justify-content: center;
      
    
-  }   
+  }  
+  .tablei{
+    width: 95%;
+    align-items: center;
+    margin: 2.5%;
+    justify-content: center;
+    
   
+ }  
+ .tableo{
+  width: 95%;
+  margin: 2.5%;
+  
+
+}  
   @media screen and (max-width:900px){
     .table{
       width: 70%;
@@ -40,5 +53,26 @@
       
     
    }
+   .tablei{
+    width: 90%;
+      display: flex;
+      margin:5%;
+      align-items: center;
+      overflow-x: auto;
+      overflow-y: hidden;
+    
+  
+ }  
+ .tableo{
+  width: 90%;
+    display: flex;
+    margin:5%;
+
+    height: 600px;
+    overflow-x: auto;
+    overflow-y: auto;
+  
+
+} 
   
   } 

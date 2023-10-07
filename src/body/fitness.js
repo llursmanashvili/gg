@@ -339,13 +339,13 @@ function Fitness() {
       <Npp />
       <h1 className="h1"> აუზი</h1>
       <Table
-        className="table"
+        className="tableo"
         columns={columns3}
         dataSource={data3}
         pagination={false}
       />
       <Table
-        className="table"
+        className="tablei"
         columns={columns4}
         dataSource={data4}
         pagination={false}
@@ -365,14 +365,14 @@ function Fitness() {
         dataSource={data1}
         pagination={false}
       />
-      <Space
-        style={{
-          width: "100%",
-          margin: "2px",
-        }}
-      ></Space>
+
       <h1 className="h1"> იოგა</h1>
-      <Table className="table" columns={columns2} dataSource={data2} />
+      <Table
+        className="table"
+        columns={columns2}
+        dataSource={data2}
+        pagination={false}
+      />
     </>
   );
 }
