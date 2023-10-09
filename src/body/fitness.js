@@ -21,7 +21,7 @@ function Fitness() {
   const data = [
     {
       key: "1",
-      დღე: "ორშაბათი",
+      დღე: "MONDAY",
       დრო: "13:00, 19:00, 20:00",
       რაოდენობა: "თვეში 8 ვიზიტი",
       ფასი: "70 ₾",
@@ -76,7 +76,7 @@ function Fitness() {
   const data1 = [
     {
       key: "1",
-      დღე: "ორშაბათი",
+      დღე: "MONDAY",
       დრო: "11:30, 18:30, 21:00",
       რაოდენობა: "8 შესვლა თვეში",
       ფასი: "40 ₾",
@@ -91,7 +91,7 @@ function Fitness() {
     {
       key: "3",
       დღე: "ოთხშაბათი",
-      დრო: "11:30, 18:30, 21:00,11:30, 18:30, 21:00,11:30, 18:30, 21:00",
+      დრო: "11:30, 18:30, 21:00",
     },
     {
       key: "4",
@@ -529,10 +529,189 @@ function Fitnessen() {
       key: "PRICE",
     },
   ];
+  const data3 = [
+    {
+      key: "1",
+      DAY: "MONDAY",
+      TIME: "07:00;  08:00;  09:00;  10:00;  12:00; 14:00;  21:00;  22:00;  23:00",
+      NUMBER: "4  Entry in a month",
+      PRICE: "60 ₾",
+      PRIC: "70 ₾",
+    },
+    {
+      key: "2",
+      DAY: "TUESDAY",
+      TIME: "07:00;  08:00;  09:00;  10:00;  12:00; 14:00;  21:00;  22:00;  23:00",
+      NUMBER: "8  Entry in a month",
+      PRICE: "90 ₾",
+      PRIC: "130 ₾",
+    },
+    {
+      key: "3",
+      DAY: "WEDNESDAY",
+      TIME: "07:00;  08:00;  09:00;  10:00;  12:00; 14:00;  21:00;  22:00;  23:00",
+      NUMBER: "12  Entry in a month",
+      PRICE: "110 ₾",
+      PRIC: "160 ₾",
+    },
+    {
+      key: "4",
+      DAY: "THURSDAY",
+      TIME: "07:00;  08:00;  09:00;  10:00;  12:00; 14:00;  21:00;  22:00;  23:00",
+      NUMBER: "16  Entry in a month",
+      PRICE: "150 ₾",
+      PRIC: "190 ₾",
+    },
+    {
+      key: "4",
+      DAY: "FRIDAY",
+      TIME: "07:00;  08:00;  09:00;  10:00;  12:00; 14:00;  21:00;  22:00;  23:00",
+    },
+    {
+      key: "4",
+      DAY: "SATURDAY",
+      TIME: "07:00;  08:00;  09:00;  10:00;  12:00;  14:00;  20:00;  21:00;  22:00;  23:00",
+    },
+    {
+      key: "4",
+      DAY: "SUNDAY",
+      TIME: "09:00;  10:00;  11:00;  12:00;  14:00;  15:00;  16:00;  17:00;  18:00;  20:00;  21:00;  22:00;  23:00",
+    },
+  ];
 
+  const columns3 = [
+    {
+      title: "DAY",
+      dataIndex: "DAY",
+      key: "DAY",
+    },
+    {
+      title: "TIME",
+      dataIndex: "TIME",
+      key: "TIME",
+    },
+    {
+      title: "NUMBER",
+      dataIndex: "NUMBER",
+      key: "NUMBER",
+    },
+
+    {
+      title: "PRICE",
+      dataIndex: "PRICE",
+      key: "PRICE",
+    },
+    {
+      title: "PRIC (17+)",
+      dataIndex: "PRIC",
+      key: "PRIC",
+    },
+  ];
+  const data4 = [
+    {
+      key: "1",
+      ".": "Women's freestyle swimming",
+      MON: "✘",
+      TUE: "19:00      ",
+      WED: "✘",
+      THU: "19:00      ",
+      FRI: "✘",
+      SAT: "13:00, 19:00      ",
+      SUN: "13:00, 19:00      ",
+      დრო: "13:00, 19:00, 20:00",
+      რაოდენობა: "თვეში 8 ვიზიტი",
+      ფასი: "70 ₾",
+    },
+    {
+      key: "2",
+      ".": "Under 17 swimming groups     ",
+      დრო: "13:00, 20:00 ",
+      MON: "11:00, 15:00, 16:00, 17:00",
+      TUE: "11:00, 15:00, 16:00, 17:00",
+      WED: "11:00, 15:00, 16:00, 17:00",
+      THU: "11:00, 15:00, 16:00, 17:00",
+      FRI: "11:00, 15:00, 16:00, 17:00",
+      SAT: "11:00, 15:00, 16:00, 17:00",
+      SUN: "✘",
+
+      რაოდენობა: "თვეში 12 ვიზიტი",
+      ფასი: "100 ₾",
+    },
+    {
+      key: "2",
+      ".": "Sports group   ",
+      დრო: "13:00, 20:00 ",
+      MON: "18:00",
+      TUE: "18:00",
+      WED: "18:00",
+      THU: "18:00",
+      FRI: "18:00",
+      SAT: "18:00",
+      SUN: "✘",
+
+      რაოდენობა: "თვეში 12 ვიზიტი",
+      ფასი: "100 ₾",
+    },
+  ];
+
+  const columns4 = [
+    {
+      title: ".",
+      dataIndex: ".",
+      key: ".",
+    },
+    {
+      title: "MON",
+      dataIndex: "MON",
+      key: "MON",
+    },
+    {
+      title: "TUE",
+      dataIndex: "TUE",
+      key: "TUE",
+    },
+    {
+      title: "WED",
+      dataIndex: "WED",
+      key: "WED",
+    },
+    {
+      title: "THU",
+      dataIndex: "THU",
+      key: "THU",
+    },
+    {
+      title: "FRI",
+      dataIndex: "FRI",
+      key: "FRI",
+    },
+    {
+      title: "SAT",
+      dataIndex: "SAT",
+      key: "SAT",
+    },
+    {
+      title: "SUN",
+      dataIndex: "SUN",
+      key: "SUN",
+    },
+  ];
   return (
     <>
       <Npp />
+      <h1 className="h1">POOL</h1>
+      <Table
+        className="tableo"
+        columns={columns3}
+        dataSource={data3}
+        pagination={false}
+      />
+      <Table
+        className="tablei"
+        columns={columns4}
+        dataSource={data4}
+        pagination={false}
+      />
       <Space
         style={{
           width: "100%",
@@ -540,14 +719,24 @@ function Fitnessen() {
         }}
       ></Space>
       <h1 className="h1">Aqua Aerobics</h1>
-      <Table className="table" columns={columns} dataSource={data} />
+      <Table
+        className="table"
+        columns={columns}
+        dataSource={data}
+        pagination={false}
+      />
       <Space
         style={{
           width: "100%",
         }}
       ></Space>
       <h1 className="h1">Fitness Aerobics</h1>
-      <Table className="table" columns={columns1} dataSource={data1} />
+      <Table
+        className="table"
+        columns={columns1}
+        dataSource={data1}
+        pagination={false}
+      />
       <Space
         style={{
           width: "100%",
@@ -555,7 +744,12 @@ function Fitnessen() {
         }}
       ></Space>
       <h1 className="h1">Yoga</h1>
-      <Table className="table" columns={columns2} dataSource={data2} />
+      <Table
+        className="table"
+        columns={columns2}
+        dataSource={data2}
+        pagination={false}
+      />
     </>
   );
 }
@@ -711,10 +905,196 @@ function Fitnessru() {
       key: "Цена",
     },
   ];
+  const data3 = [
+    {
+      key: "1",
+      День: "	понедельник",
+      Время:
+        "07:00;  08:00;  09:00;  10:00;  12:00; 14:00;  21:00;  22:00;  23:00",
+      Количество: "4 посещений в месяц",
+      Цена: "60 ₾",
+      Цен: "70 ₾",
+    },
+    {
+      key: "2",
+      День: "вторник",
+      Время:
+        "07:00;  08:00;  09:00;  10:00;  12:00; 14:00;  21:00;  22:00;  23:00",
+      Количество: "8 посещений в месяц",
+      Цена: "90 ₾",
+      Цен: "130 ₾",
+    },
+    {
+      key: "3",
+      День: "среда",
+      Время:
+        "07:00;  08:00;  09:00;  10:00;  12:00; 14:00;  21:00;  22:00;  23:00",
+      Количество: "12 посещений в месяц",
+      Цена: "110 ₾",
+      Цен: "160 ₾",
+    },
+    {
+      key: "4",
+      День: "четверг",
+      Время:
+        "07:00;  08:00;  09:00;  10:00;  12:00; 14:00;  21:00;  22:00;  23:00",
+      Количество: "16 посещений в месяц",
+      Цена: "150 ₾",
+      Цен: "190 ₾",
+    },
+    {
+      key: "4",
+      День: "пятница",
+      Время:
+        "07:00;  08:00;  09:00;  10:00;  12:00; 14:00;  21:00;  22:00;  23:00",
+    },
+    {
+      key: "4",
+      День: "суббота",
+      Время:
+        "07:00;  08:00;  09:00;  10:00;  12:00;  14:00;  20:00;  21:00;  22:00;  23:00",
+    },
+    {
+      key: "4",
+      День: "воскресенье",
+      Время:
+        "09:00;  10:00;  11:00;  12:00;  14:00;  15:00;  16:00;  17:00;  18:00;  20:00;  21:00;  22:00;  23:00",
+    },
+  ];
 
+  const columns3 = [
+    {
+      title: "День",
+      dataIndex: "День",
+      key: "День",
+    },
+    {
+      title: "Время",
+      dataIndex: "Время",
+      key: "Время",
+    },
+    {
+      title: "Количество",
+      dataIndex: "Количество",
+      key: "Количество",
+    },
+
+    {
+      title: "Цена",
+      dataIndex: "Цена",
+      key: "Цена",
+    },
+    {
+      title: "Цена (17+)",
+      dataIndex: "Цен",
+      key: "Цен",
+    },
+  ];
+  const data4 = [
+    {
+      key: "1",
+      ".": "Свободное плавание женщин",
+      пн: "✘",
+      вт: "19:00      ",
+      ср: "✘",
+      чт: "19:00      ",
+      пт: "✘",
+      сб: "13:00, 19:00      ",
+      вс: "13:00, 19:00      ",
+      დრო: "13:00, 19:00, 20:00",
+      რაოდენობა: "თვეში 8 ვიზიტი",
+      ფასი: "70 ₾",
+    },
+    {
+      key: "2",
+      ".": "Группы по плаванию до 17 лет ",
+      დრო: "13:00, 20:00 ",
+      пн: "11:00, 15:00, 16:00, 17:00",
+      вт: "11:00, 15:00, 16:00, 17:00",
+      ср: "11:00, 15:00, 16:00, 17:00",
+      чт: "11:00, 15:00, 16:00, 17:00",
+      пт: "11:00, 15:00, 16:00, 17:00",
+      сб: "11:00, 15:00, 16:00, 17:00",
+      вс: "✘",
+
+      რაოდენობა: "თვეში 12 ვიზიტი",
+      ფასი: "100 ₾",
+    },
+    {
+      key: "2",
+      ".": "Спортивная группа  ",
+      დრო: "13:00, 20:00 ",
+      пн: "18:00",
+      вт: "18:00",
+      ср: "18:00",
+      чт: "18:00",
+      пт: "18:00",
+      сб: "18:00",
+      вс: "✘",
+
+      რაოდენობა: "თვეში 12 ვიზიტი",
+      ფასი: "100 ₾",
+    },
+  ];
+
+  const columns4 = [
+    {
+      title: ".",
+      dataIndex: ".",
+      key: ".",
+    },
+    {
+      title: "пн",
+      dataIndex: "пн",
+      key: "пн",
+    },
+    {
+      title: "вт",
+      dataIndex: "вт",
+      key: "вт",
+    },
+    {
+      title: "ср",
+      dataIndex: "ср",
+      key: "ср",
+    },
+    {
+      title: "чт",
+      dataIndex: "чт",
+      key: "чт",
+    },
+    {
+      title: "пт",
+      dataIndex: "пт",
+      key: "пт",
+    },
+    {
+      title: "сб",
+      dataIndex: "сб",
+      key: "сб",
+    },
+    {
+      title: "вс",
+      dataIndex: "вс",
+      key: "вс",
+    },
+  ];
   return (
     <>
       <Npp />
+      <h1 className="h1">Бассейн</h1>
+      <Table
+        className="tableo"
+        columns={columns3}
+        dataSource={data3}
+        pagination={false}
+      />
+      <Table
+        className="tablei"
+        columns={columns4}
+        dataSource={data4}
+        pagination={false}
+      />
       <Space
         style={{
           width: "100%",
@@ -722,14 +1102,24 @@ function Fitnessru() {
         }}
       ></Space>
       <h1 className="h1"> Аква Аэробика</h1>
-      <Table className="table" columns={columns} dataSource={data} />
+      <Table
+        className="table"
+        columns={columns}
+        dataSource={data}
+        pagination={false}
+      />
       <Space
         style={{
           width: "100%",
         }}
       ></Space>
       <h1 className="h1">Фитнес-Аэробика</h1>
-      <Table className="table" columns={columns1} dataSource={data1} />
+      <Table
+        className="table"
+        columns={columns1}
+        dataSource={data1}
+        pagination={false}
+      />
       <Space
         style={{
           width: "100%",
@@ -737,7 +1127,12 @@ function Fitnessru() {
         }}
       ></Space>
       <h1 className="h1">Йога</h1>
-      <Table className="table" columns={columns2} dataSource={data2} />
+      <Table
+        className="table"
+        columns={columns2}
+        dataSource={data2}
+        pagination={false}
+      />
     </>
   );
 }
