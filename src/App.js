@@ -1,6 +1,8 @@
 import { Navbar, Navbaren, Navbarru } from "./navbar/Navbar";
 import { Navbar1, Navbar2, Navbar3 } from "./body/Navbar1";
 import { Footer, Footer1, Footer2 } from "./footer/footer";
+import ReactGA from "react-ga";
+
 import "./App.css";
 import { Routes, Route } from "react-router-dom";
 import { Cafe, Cafe1, Cafe2 } from "./body/cafe";
