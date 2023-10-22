@@ -26,7 +26,7 @@ import fitness7 from "./photos/fitness/fitness8.jpeg";
 import fitness8 from "./photos/fitness/fitness9.jpeg";
 import fitness9 from "./photos/fitness/fitness10.jpeg";
 import fitness10 from "./photos/fitness/fitness11.JPG";
-import fitness11 from "./photos/fitness/fitness12.JPG";
+import fitness11 from "./photos/fitness/fitness13.jpg";
 export default function Npp() {
   return (
     <>
@@ -43,11 +43,20 @@ export default function Npp() {
         modules={[Autoplay, Pagination, Navigation, EffectFade]}
         className="mySwiperi"
         style={{
-          width: "99%",
-          height: "500px",
+          width: "85%",
+          height: "450px",
           borderRadius: "5px",
         }}
       >
+        <SwiperSlide style={{ height: "100%" }}>
+          <img alt="hotel georgia gold" src={fitness11} />
+        </SwiperSlide>
+        <SwiperSlide style={{ height: "100%" }}>
+          <img alt="hotel georgia gold" src={fitness} />
+        </SwiperSlide>
+        <SwiperSlide style={{ height: "100%" }}>
+          <img alt="hotel georgia gold" src={fitness1} />
+        </SwiperSlide>
         <SwiperSlide style={{ height: "100%" }}>
           <img alt="hotel georgia gold" src={fitness6} />
         </SwiperSlide>
@@ -57,12 +66,7 @@ export default function Npp() {
         <SwiperSlide style={{ height: "100%" }}>
           <img alt="hotel georgia gold" src={fitness8} />
         </SwiperSlide>
-        <SwiperSlide style={{ height: "100%" }}>
-          <img alt="hotel georgia gold" src={fitness} />
-        </SwiperSlide>
-        <SwiperSlide style={{ height: "100%" }}>
-          <img alt="hotel georgia gold" src={fitness1} />
-        </SwiperSlide>
+
         <SwiperSlide style={{ height: "100%" }}>
           <img alt="hotel georgia gold" src={fitness2} />
         </SwiperSlide>
