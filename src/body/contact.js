@@ -91,7 +91,7 @@ const Contact = () => {
               <label>Name</label>
               <input type="text" name="to_name" />
               <label>Email</label>
-              <input type="email" name="from_name" />
+              <input type="email" name="from_email" />
               <label>Message</label>
               <textarea name="message" />
               <input
