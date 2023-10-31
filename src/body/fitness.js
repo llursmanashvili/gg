@@ -44,9 +44,14 @@ function Fitness() {
       დრო: "13:00, 20:00",
     },
     {
-      key: "4",
+      key: "5",
       დღე: "პარასკევი",
       დრო: "13:00, 19:00, 20:00",
+    },
+    {
+      key: "6",
+      დღე: "შაბათი",
+      დრო: "13:00",
     },
   ];
 
@@ -77,31 +82,21 @@ function Fitness() {
     {
       key: "1",
       დღე: "ორშაბათი",
-      დრო: "11:30, 18:30, 21:00",
+      დრო: "11:30, 19:00, 21:00",
       რაოდენობა: "8 შესვლა თვეში",
       ფასი: "40 ₾",
     },
-    {
-      key: "2",
-      დღე: "სამშაბათი",
-      დრო: "21:00",
-      რაოდენობა: "12 შესვლა თვეში",
-      ფასი: "60 ₾",
-    },
+
     {
       key: "3",
       დღე: "ოთხშაბათი",
-      დრო: "11:30, 18:30, 21:00",
+      დრო: "11:30, 19:00, 21:00",
     },
-    {
-      key: "4",
-      დღე: "ხუთშაბათი",
-      დრო: "21:00",
-    },
+
     {
       key: "4",
       დღე: "პარასკევი",
-      დრო: "11:30, 18:30, 21:00",
+      დრო: "11:30, 19:00, 21:00",
     },
   ];
 
@@ -132,14 +127,14 @@ function Fitness() {
     {
       key: "1",
       დღე: "სამშაბათი",
-      დრო: "20:00",
+      დრო: "19:00",
       რაოდენობა: "8 სესია თვეში",
       ფასი: "60 ₾",
     },
     {
       key: "2",
       დღე: "ხუთშაბათი",
-      დრო: " 20:00",
+      დრო: " 19:00",
     },
   ];
 
@@ -334,6 +329,47 @@ function Fitness() {
       key: "კვი",
     },
   ];
+  const data5 = [
+    {
+      key: "1",
+      დღე: "სამშაბათი",
+      დრო: "11:30 ,21:00",
+    },
+    {
+      key: "2",
+      დღე: "ხუთშაბათი",
+      დრო: " 11:30 ,21:00",
+    },
+    {
+      key: "3",
+      დღე: "შაბათი",
+      დრო: " 11:30",
+    },
+  ];
+
+  const columns5 = [
+    {
+      title: "დღე",
+      dataIndex: "დღე",
+      key: "დღე",
+    },
+    {
+      title: "დრო",
+      dataIndex: "დრო",
+      key: "დრო",
+    },
+    {
+      title: "რაოდენობა",
+      dataIndex: "რაოდენობა",
+      key: "რაოდენობა",
+    },
+
+    {
+      title: "ფასი",
+      dataIndex: "ფასი",
+      key: "ფასი",
+    },
+  ];
   return (
     <>
       <Npp />
@@ -373,6 +409,13 @@ function Fitness() {
         dataSource={data2}
         pagination={false}
       />
+      <h1 className="h1"> ბოდი ფიტი</h1>
+      <Table
+        className="table"
+        columns={columns5}
+        dataSource={data5}
+        pagination={false}
+      />
     </>
   );
 }
@@ -410,6 +453,11 @@ function Fitnessen() {
       DAY: "Friday",
       TIME: "13:00, 19:00, 20:00",
     },
+    {
+      key: "4",
+      DAY: "Saturday",
+      TIME: "13:00",
+    },
   ];
 
   const columns = [
@@ -439,32 +487,22 @@ function Fitnessen() {
     {
       key: "1",
       DAY: "Monday",
-      TIME: "11:30, 18:30, 21:00",
+      TIME: "11:30, 19:00, 21:00",
       NUMBER: "8 Entry in a month",
       PRICE: "40 GEL",
     },
-    {
-      key: "2",
-      DAY: "Tuesday",
-      TIME: " 21:00 ",
-      NUMBER: "12 Entry in a month",
-      PRICE: "60 GEL",
-    },
+
     {
       key: "3",
       DAY: "Wednesday",
 
-      TIME: "11:30, 18:30, 21:00",
+      TIME: "11:30, 19:00, 21:00",
     },
-    {
-      key: "4",
-      DAY: "Thursday",
-      TIME: " 21:00",
-    },
+
     {
       key: "4",
       DAY: "Friday",
-      TIME: "11:30, 18:30, 21:00",
+      TIME: "11:30, 19:00, 21:00",
     },
   ];
 
@@ -495,14 +533,14 @@ function Fitnessen() {
     {
       key: "1",
       DAY: "Tuesday",
-      TIME: " 20:00",
+      TIME: " 19:00",
       NUMBER: "8 Entry in a month",
       PRICE: "60 GEL",
     },
     {
       key: "2",
       DAY: "Thursday",
-      TIME: " 20:00 ",
+      TIME: " 19:00 ",
     },
   ];
 
@@ -696,6 +734,47 @@ function Fitnessen() {
       key: "SUN",
     },
   ];
+  const data5 = [
+    {
+      key: "1",
+      DAY: "Tuesday",
+      TIME: "11:30 ,21:00 ",
+    },
+    {
+      key: "2",
+      DAY: "Thursday",
+      TIME: "11:30 ,21:00",
+    },
+    {
+      key: "2",
+      DAY: "Saturday",
+      TIME: "11:30",
+    },
+  ];
+
+  const columns5 = [
+    {
+      title: "DAY",
+      dataIndex: "DAY",
+      key: "DAY",
+    },
+    {
+      title: "TIME",
+      dataIndex: "TIME",
+      key: "TIME",
+    },
+    {
+      title: "NUMBER",
+      dataIndex: "NUMBER",
+      key: "NUMBER",
+    },
+
+    {
+      title: "PRICE",
+      dataIndex: "PRICE",
+      key: "PRICE",
+    },
+  ];
   return (
     <>
       <Npp />
@@ -750,6 +829,13 @@ function Fitnessen() {
         dataSource={data2}
         pagination={false}
       />
+      <h1 className="h1">Body Fit</h1>
+      <Table
+        className="table"
+        columns={columns5}
+        dataSource={data5}
+        pagination={false}
+      />
     </>
   );
 }
@@ -787,6 +873,11 @@ function Fitnessru() {
       День: "Пятница",
       Время: "13:00, 19:00, 20:00",
     },
+    {
+      key: "5",
+      День: "суббота",
+      Время: "13:00",
+    },
   ];
 
   const columns = [
@@ -816,31 +907,21 @@ function Fitnessru() {
     {
       key: "1",
       День: "Понедельник",
-      Время: "11:30, 18:30, 21:00 ",
+      Время: "11:30, 19:00, 21:00 ",
       Количество: "8 посещений в месяц",
       Цена: "40 лари",
     },
-    {
-      key: "2",
-      День: "Вторник",
-      Время: " 21:00",
-      Количество: "12 посещений в месяц",
-      Цена: "60 лари",
-    },
+
     {
       key: "3",
       День: "Среда",
-      Время: "11:30, 18:30, 21:00 ",
+      Время: "11:30, 19:00, 21:00 ",
     },
-    {
-      key: "4",
-      День: "Четверг",
-      Время: "21:00",
-    },
+
     {
       key: "4",
       День: "Пятница",
-      Время: "11:30, 18:30, 21:00 ",
+      Время: "11:30, 19:00, 21:00 ",
     },
   ];
 
@@ -871,14 +952,14 @@ function Fitnessru() {
     {
       key: "1",
       День: "Вторник",
-      Время: "20:00",
+      Время: "19:00",
       Количество: "8 посещений в месяц",
       Цена: "60 лари",
     },
     {
       key: "2",
       День: "Четверг",
-      Время: " 20:00 ",
+      Время: " 19:00 ",
     },
   ];
 
@@ -1079,6 +1160,47 @@ function Fitnessru() {
       key: "вс",
     },
   ];
+  const data5 = [
+    {
+      key: "1",
+      День: "Вторник",
+      Время: "11:30 ,21:00",
+    },
+    {
+      key: "2",
+      День: "Четверг",
+      Время: "11:30 ,21:00 ",
+    },
+    {
+      key: "2",
+      День: "суббота",
+      Время: "11:30",
+    },
+  ];
+
+  const columns5 = [
+    {
+      title: "День",
+      dataIndex: "День",
+      key: "День",
+    },
+    {
+      title: "Время",
+      dataIndex: "Время",
+      key: "Время",
+    },
+    {
+      title: "Количество",
+      dataIndex: "Количество",
+      key: "Количество",
+    },
+
+    {
+      title: "Цена",
+      dataIndex: "Цена",
+      key: "Цена",
+    },
+  ];
   return (
     <>
       <Npp />
@@ -1131,6 +1253,13 @@ function Fitnessru() {
         className="table"
         columns={columns2}
         dataSource={data2}
+        pagination={false}
+      />
+      <h1 className="h1">тело подходит</h1>
+      <Table
+        className="table"
+        columns={columns5}
+        dataSource={data5}
         pagination={false}
       />
     </>
